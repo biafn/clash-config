@@ -144,7 +144,7 @@ rules:
     - DOMAIN-SUFFIX,docs.gtk.pw,Github
     - DOMAIN-SUFFIX,urlimage.cc,火箭TNT
     - DOMAIN-KEYWORD,hjtnt,火箭TNT
-    - DOMAIN-KEYWORD,google,火箭TNT
+    - DOMAIN-KEYWORD,lh3.googleusercontent.com,Openai
     - DOMAIN-KEYWORD,googleLEAPIS,DIRECT
     - DOMAIN-KEYWORD,google-analytics.com,DIRECT
     - DOMAIN-KEYWORD,sijishe,火箭TNT
