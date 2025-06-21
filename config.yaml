@@ -77,6 +77,9 @@ proxy-groups:
     - name: Openai
       type: select
       proxies:
+        - TW🇨🇳商务舱A♚
+        - TW🇨🇳商务舱B♚
+        - TW🇨🇳商务舱C♚
         - TW🇨🇳经济舱A⭑
     - name: Steam
       type: select
