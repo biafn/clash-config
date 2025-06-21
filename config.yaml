@@ -136,8 +136,20 @@ rules:
     - RULE-SET,DOMAIN_Proxy,火箭TNT
     - RULE-SET,DIRECT,DIRECT
 
-
-
+# 自定义
+    - DOMAIN-KEYWORD,github.com,Github
+    - DOMAIN-KEYWORD,cloudflarestorage.com,c站下载
+    - DOMAIN,objects.githubusercontent.com,GithubDownload
+    - DOMAIN-KEYWORD,steam,Steam
+    - DOMAIN-SUFFIX,store.steampowered.com,Steam
+    - DOMAIN-SUFFIX,api.steampowered.com,Steam
+    - DOMAIN-SUFFIX,login.steampowered.com,Steam
+    - DOMAIN-SUFFIX,chatgpt.com,Openai
+    - DOMAIN-SUFFIX,files.oaiusercontent.com,Openai
+    - DOMAIN-SUFFIX,openai.com,Openai
+    - DOMAIN-SUFFIX,docs.gtk.pw,Github
+    - DOMAIN-KEYWORD,lh3.googleusercontent.com,Openai
+# 自定义
 
     - 'IP-CIDR,1.1.1.1/32,火箭TNT,no-resolve'
     - 'IP-CIDR,8.8.8.8/32,火箭TNT,no-resolve'
