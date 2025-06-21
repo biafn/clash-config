@@ -485,8 +485,6 @@ rules:
     - 'DOMAIN-SUFFIX,linode.com,火箭TNT'
     - 'DOMAIN-SUFFIX,lithium.com,火箭TNT'
     - 'DOMAIN-SUFFIX,littlehj.com,火箭TNT'
-    - 'DOMAIN-SUFFIX,live.com,火箭TNT'
-    - 'DOMAIN-SUFFIX,live.net,火箭TNT'
     - 'DOMAIN-SUFFIX,livefilestore.com,火箭TNT'
     - 'DOMAIN-SUFFIX,llnwd.net,火箭TNT'
     - 'DOMAIN-SUFFIX,macid.co,火箭TNT'
