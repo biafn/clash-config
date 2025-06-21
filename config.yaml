@@ -109,7 +109,6 @@ rule-providers:
     path: ./DOMAIN-KEYWORD_Proxy.yaml
     interval: 86400
 
-rule-providers:
   DOMAIN-SUFFIX_Proxy:
     type: http
     behavior: classical
@@ -117,7 +116,6 @@ rule-providers:
     path: ./DOMAIN-SUFFIX_Proxy.yaml
     interval: 86400    
     
-rule-providers:
   DOMAIN_Proxy:
     type: http
     behavior: classical
