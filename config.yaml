@@ -108,11 +108,27 @@ rule-providers:
     url: https://raw.githubusercontent.com/biafn/clash-config/main/DOMAIN-KEYWORD_Proxy.yaml
     path: ./DOMAIN-KEYWORD_Proxy.yaml
     interval: 86400
+
+rule-providers:
+  DOMAIN-SUFFIX_Proxy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/DOMAIN-SUFFIX_Proxy.yaml
+    path: ./DOMAIN-SUFFIX_Proxy.yaml
+    interval: 86400    
+    
+rule-providers:
+  DOMAIN_Proxy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/DOMAIN_Proxy.yaml
+    path: ./DOMAIN_Proxy.yaml
+    interval: 86400
         
 rules:
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
-    
-
+    - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
+    - RULE-SET,DOMAIN_Proxy,火箭TNT
 
 
 
