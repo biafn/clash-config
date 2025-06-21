@@ -83,11 +83,6 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT
-    - name: GithubDownload
-      type: select
-      proxies:
-        - 火箭TNT
-        - DIRECT
     - name: c站下载
       type: select
       proxies:
@@ -139,7 +134,6 @@ rules:
 # 自定义
     - DOMAIN-KEYWORD,github.com,Github
     - DOMAIN-KEYWORD,cloudflarestorage.com,c站下载
-    - DOMAIN,objects.githubusercontent.com,GithubDownload
     - DOMAIN-KEYWORD,steam,Steam
     - DOMAIN-SUFFIX,store.steampowered.com,Steam
     - DOMAIN-SUFFIX,api.steampowered.com,Steam
@@ -147,7 +141,6 @@ rules:
     - DOMAIN-SUFFIX,chatgpt.com,Openai
     - DOMAIN-SUFFIX,files.oaiusercontent.com,Openai
     - DOMAIN-SUFFIX,openai.com,Openai
-    - DOMAIN-SUFFIX,docs.gtk.pw,Github
     - DOMAIN-KEYWORD,lh3.googleusercontent.com,Openai
 # 自定义
 
@@ -446,7 +439,7 @@ rules:
     - 'DOMAIN-SUFFIX,ggpht.com,火箭TNT'
     - 'DOMAIN-SUFFIX,ghostnoteapp.com,火箭TNT'
     - 'DOMAIN-SUFFIX,git.io,火箭TNT'
-    - 'DOMAIN-KEYWORD,github,火箭TNT'
+
     - 'DOMAIN-SUFFIX,globalsign.com,火箭TNT'
     - 'DOMAIN-SUFFIX,gmodules.com,火箭TNT'
     - 'DOMAIN-SUFFIX,godaddy.com,火箭TNT'
