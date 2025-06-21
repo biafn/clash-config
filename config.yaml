@@ -1,7 +1,6 @@
 mixed-port: 7890
 allow-lan: true
-# bind-address: '*'
-bind-address: 0.0.0.0
+bind-address: '*'
 mode: rule
 log-level: info
 external-controller: '0.0.0.0:12345'
