@@ -105,7 +105,7 @@ rule-providers:
   DOMAIN-KEYWORD_Proxy:
     type: http
     behavior: classical
-    url: https://biafn.github.io/clash-config/DOMAIN-KEYWORD_Proxy.yaml
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/DOMAIN-KEYWORD_Proxy.yaml
     path: ./DOMAIN-KEYWORD_Proxy.yaml
     interval: 86400
         
