@@ -78,6 +78,9 @@ proxy-groups:
         - TW🇨🇳商务舱B♚
         - TW🇨🇳商务舱C♚
         - TW🇨🇳经济舱A⭑
+        - TW🇨🇳经济舱B⭑
+        - TW🇨🇳经济舱C⭑
+        - TW🇨🇳经济舱D⭑
     - name: Steam
       type: select
       proxies:
