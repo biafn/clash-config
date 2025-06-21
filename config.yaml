@@ -122,12 +122,19 @@ rule-providers:
     url: https://raw.githubusercontent.com/biafn/clash-config/main/DOMAIN_Proxy.yaml
     path: ./DOMAIN_Proxy.yaml
     interval: 86400
+    
+  DIRECT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/DIRECT.yaml
+    path: ./DIRECT.yaml
+    interval: 86400
         
 rules:
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
     - RULE-SET,DOMAIN_Proxy,火箭TNT
-
+    - RULE-SET,DIRECT,DIRECT
 
 
 
