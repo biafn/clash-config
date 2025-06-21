@@ -98,7 +98,19 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT  
+
+
+
+rule-providers:
+  DOMAIN-KEYWORD_Proxy:
+    type: http
+    behavior: classical
+    url: https://biafn.github.io/clash-config/DOMAIN-KEYWORD_Proxy.yaml
+    path: ./DOMAIN-KEYWORD_Proxy.yaml
+    interval: 86400
+        
 rules:
+    - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - DOMAIN-KEYWORD,wallhaven.cc,火箭TNT
     - DOMAIN-KEYWORD,huggingface.co,火箭TNT
     - DOMAIN-KEYWORD,github.com,Github
