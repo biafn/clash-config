@@ -1,3 +1,4 @@
+payload:
     - DOMAIN-SUFFIX,functional.events.data.microsoft.com,DIRECT
     - DOMAIN-KEYWORD,googleLEAPIS,DIRECT
     - DOMAIN-KEYWORD,google-analytics.com,DIRECT
