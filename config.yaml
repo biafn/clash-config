@@ -1,10 +1,10 @@
 mixed-port: 7890
 allow-lan: true
 # bind-address: '*'
-bind-address: 127.0.0.1
+bind-address: 0.0.0.0
 mode: rule
 log-level: info
-external-controller: '127.0.0.1:12345'
+external-controller: '0.0.0.0:12345'
 dns:
     enable: true
     ipv6: false
