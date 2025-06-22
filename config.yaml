@@ -74,6 +74,8 @@ proxy-groups:
         - DIRECT
     - name: Openai
       type: url-test
+      url: 'https://chatgpt.com'
+      interval: 86400
       proxies:
         - TW商务x1.5A♚
         - TW商务x1.5B♚
