@@ -36,7 +36,7 @@ proxies:
     - { name: SG经济x1.5B⭑, type: vmess, server: sg.usluodi.xyz, port: 31132, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: SG经济x1.5C⭑, type: vmess, server: sg.usluodi.xyz, port: 31133, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: SG经济x1.5D⭑, type: vmess, server: sg.usluodi.xyz, port: 31134, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
- proxy-groups:
+proxy-groups:
     - { name: 火箭TNT, type: select, proxies: [SG头等x1.5A♛, SG头等x1.5B♛, TW商务x1.5A♚, TW商务x1.5B♚, TW商务x1.5C♚, HK经济x1.5A⭑, HK经济x1.5B⭑, HK经济x1.5C⭑, HK经济x1.5D⭑, HK经济x1.5E⭑, HK经济x1.5F⭑, TW经济x1.5A⭑, TW经济x1.5B⭑, TW经济x1.5C⭑, TW经济x1.5D⭑, SG经济x1.5A⭑, SG经济x1.5B⭑, SG经济x1.5C⭑, SG经济x1.5D⭑] }
     - name: Github
       type: select
