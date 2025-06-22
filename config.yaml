@@ -108,7 +108,7 @@ rules:
     - RULE-SET,DIRECT,DIRECT
 
 # 自定义
-    - DOMAIN-KEYWORD,github.com,Github
+    - DOMAIN-KEYWORD,github,Github
     - DOMAIN-KEYWORD,cloudflarestorage.com,c站下载
     - DOMAIN-KEYWORD,steam,Steam
     - DOMAIN-SUFFIX,store.steampowered.com,Steam
