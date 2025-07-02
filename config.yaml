@@ -198,6 +198,7 @@ rules:
     - DOMAIN-SUFFIX,files.oaiusercontent.com,Openai
     - DOMAIN-SUFFIX,openai.com,Openai
     - DOMAIN-KEYWORD,lh3.googleusercontent.com,Openai
+    - DOMAIN-KEYWORD,cdn.oaistatic.com,Openai
 # 自定义
 
     - 'IP-CIDR,1.1.1.1/32,火箭TNT,no-resolve'
