@@ -113,7 +113,7 @@ proxy-groups:
         - US商务x1.8B♚
         - US头等x1.8A♛
         - US头等x1.8B♛
-
+        - DIRECT
 
     - { name: 自动选择, type: url-test, url: 'http://www.gstatic.com/generate_204', interval: 86400, proxies: [SG头等x1.5A♛, SG头等x1.5B♛, TW商务x1.5A♚, TW商务x1.5B♚, TW商务x1.5C♚, HK经济x1.5A⭑, HK经济x1.5B⭑, HK经济x1.5C⭑, HK经济x1.5D⭑, HK经济x1.5E⭑, HK经济x1.5F⭑, TW经济x1.5A⭑, TW经济x1.5B⭑, TW经济x1.5C⭑, TW经济x1.5D⭑, SG经济x1.5A⭑, SG经济x1.5B⭑, SG经济x1.5C⭑, SG经济x1.5D⭑] }
     - { name: 高费率, type: url-test, url: 'http://www.gstatic.com/generate_204', interval: 86400, proxies:  [HK头等x1.8A♛, HK头等x1.8B♛, HK头等x1.8C♛, HK头等x1.8D♛, TW头等x1.8A♛, TW头等x1.8B♛, JP头等x1.8A♛, JP头等x1.8B♛, US头等x1.8A♛, US头等x1.8B♛, SG头等x1.5A♛, SG头等x1.5B♛, HK商务x1.7A♚, HK商务x1.7B♚, HK商务x1.7C♚, HK商务x1.7D♚, TW商务x1.5A♚, TW商务x1.5B♚, TW商务x1.5C♚, US商务x1.8A♚, US商务x1.8B♚, HK经济x1.5A⭑, HK经济x1.5B⭑, HK经济x1.5C⭑, HK经济x1.5D⭑, HK经济x1.5E⭑, HK经济x1.5F⭑, TW经济x1.5A⭑, TW经济x1.5B⭑, TW经济x1.5C⭑, TW经济x1.5D⭑, JP经济x1.7A⭑, JP经济x1.7B⭑, JP经济x1.7C⭑, JP经济x1.7D⭑,US经济x1.8A⭑,US经济x1.8B⭑,US经济x1.8C⭑,US经济x1.8D⭑, SG经济x1.5A⭑, SG经济x1.5B⭑, SG经济x1.5C⭑, SG经济x1.5D⭑,KR商务x2A♚,KR商务x2B♚] }
