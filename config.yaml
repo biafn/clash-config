@@ -188,17 +188,23 @@ rules:
     - RULE-SET,DIRECT,DIRECT
 
 # 自定义
+    #ChatGPT
+    - DOMAIN-SUFFIX,openai.com,Openai
+    - DOMAIN-SUFFIX,chatgpt.com,Openai
+    - DOMAIN-SUFFIX,oaistatic.com,Openai
+    - DOMAIN-SUFFIX,auth0.com,Openai
+    - DOMAIN-SUFFIX,oaiusercontent.com,Openai
+    - DOMAIN-SUFFIX,platform.openai.com,Openai
+    - DOMAIN-SUFFIX,api.openai.com,Openai
+    - DOMAIN-SUFFIX,challenges.cloudflare.com,Openai
+    #ChatGPT
+    
     - DOMAIN-KEYWORD,github,Github
     - DOMAIN-KEYWORD,cloudflarestorage.com,c站下载
     - DOMAIN-KEYWORD,steam,Steam
     - DOMAIN-SUFFIX,store.steampowered.com,Steam
     - DOMAIN-SUFFIX,api.steampowered.com,Steam
     - DOMAIN-SUFFIX,login.steampowered.com,Steam
-    - DOMAIN-SUFFIX,chatgpt.com,Openai
-    - DOMAIN-SUFFIX,files.oaiusercontent.com,Openai
-    - DOMAIN-SUFFIX,openai.com,Openai
-    - DOMAIN-KEYWORD,lh3.googleusercontent.com,Openai
-    - DOMAIN-KEYWORD,cdn.oaistatic.com,Openai
 # 自定义
 
     - 'IP-CIDR,1.1.1.1/32,火箭TNT,no-resolve'
