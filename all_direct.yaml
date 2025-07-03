@@ -82,8 +82,6 @@ payload:
     - DOMAIN-SUFFIX,sfx.ms
     - DOMAIN-SUFFIX,sharepoint.com
     - DOMAIN-KEYWORD,officecdn
-    - DOMAIN-SUFFIX,blizzard.com
-    - DOMAIN-SUFFIX,battle.net
     - DOMAIN,blzddist1-a.akamaihd.net
     - DOMAIN-SUFFIX,qq.com
     - DOMAIN-SUFFIX,qpic.cn
