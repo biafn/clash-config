@@ -174,10 +174,10 @@ rule-providers:
     path: ./DOMAIN_Proxy.yaml
     interval: 86400
     
-  DIRECT:
+  all_direct:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/biafn/clash-config/main/DIRECT.yaml
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/all_direct.yaml
     path: ./DIRECT.yaml
     interval: 86400
         
@@ -185,7 +185,7 @@ rules:
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
     - RULE-SET,DOMAIN_Proxy,火箭TNT
-    - RULE-SET,DIRECT,DIRECT
+    - RULE-SET,all_direct,DIRECT
 
 # 自定义
     #ChatGPT
@@ -198,6 +198,18 @@ rules:
     - DOMAIN-SUFFIX,api.openai.com,Openai
     - DOMAIN-SUFFIX,challenges.cloudflare.com,Openai
     #ChatGPT
+
+    # 🎯 国服 Battle.net（中国战网、网易服务器）走直连
+    - DOMAIN-SUFFIX,battle.net.cn,DIRECT
+    - DOMAIN-SUFFIX,blzstatic.cn,DIRECT
+    - DOMAIN-KEYWORD,blizzardcdn,DIRECT
+    # 🌐 美服 Battle.net & 炉石走代理
+    - DOMAIN-SUFFIX,battle.net,火箭TNT
+    - DOMAIN-SUFFIX,blizzard.com,火箭TNT
+    - DOMAIN-KEYWORD,blz,火箭TNT
+    - IP-CIDR,137.221.0.0/16,火箭TNT,no-resolve
+    - IP-CIDR,24.105.0.0/16,火箭TNT,no-resolve
+
     
     - DOMAIN-KEYWORD,github,Github
     - DOMAIN-KEYWORD,cloudflarestorage.com,c站下载
