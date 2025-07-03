@@ -139,6 +139,18 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT
+    - name: 炉石美服
+      type: select
+      proxies:
+        - US经济x1.8A⭑
+        - US经济x1.8B⭑
+        - US经济x1.8C⭑
+        - US经济x1.8D⭑
+        - US商务x1.8A♚
+        - US商务x1.8B♚
+        - US头等x1.8A♛
+        - US头等x1.8B♛
+        - DIRECT
     - name: c站下载
       type: select
       proxies:
@@ -204,11 +216,11 @@ rules:
     - DOMAIN-SUFFIX,blzstatic.cn,DIRECT
     - DOMAIN-KEYWORD,blizzardcdn,DIRECT
     # 🌐 美服 Battle.net & 炉石走代理
-    - DOMAIN-SUFFIX,battle.net,火箭TNT
-    - DOMAIN-SUFFIX,blizzard.com,火箭TNT
-    - DOMAIN-KEYWORD,blz,火箭TNT
-    - IP-CIDR,137.221.0.0/16,火箭TNT,no-resolve
-    - IP-CIDR,24.105.0.0/16,火箭TNT,no-resolve
+    - DOMAIN-SUFFIX,battle.net,炉石美服
+    - DOMAIN-SUFFIX,blizzard.com,炉石美服
+    - DOMAIN-KEYWORD,blz,炉石美服
+    - IP-CIDR,137.221.0.0/16,炉石美服,no-resolve
+    - IP-CIDR,24.105.0.0/16,炉石美服,no-resolve
 
     
     - DOMAIN-KEYWORD,github,Github
