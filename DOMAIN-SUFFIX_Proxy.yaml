@@ -2,6 +2,7 @@ payload:
     #自定义
     - DOMAIN-SUFFIX,x.com
     - DOMAIN-SUFFIX,greasyfork.org
+    - DOMAIN-SUFFIX,zh.savefrom.net
     #
     - DOMAIN-SUFFIX,crxsoso.com
     - DOMAIN-SUFFIX,pki.goog
