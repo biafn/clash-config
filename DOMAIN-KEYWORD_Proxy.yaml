@@ -1,5 +1,9 @@
 payload:
+    #自定义
+    - DOMAIN-KEYWORD,twitter
     - DOMAIN-KEYWORD,wallhaven.cc
+    #
+
     - DOMAIN-KEYWORD,huggingface.co
     - DOMAIN-KEYWORD,raw.githubusercontent.com
     - DOMAIN-KEYWORD,civitai.com
