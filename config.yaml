@@ -127,13 +127,15 @@ proxy-groups:
       url: 'https://chatgpt.com'
       interval: 86400
       proxies:
-        - TW商务x1.5A♚
-        - TW商务x1.5B♚
-        - TW商务x1.5C♚
         - TW经济x1.5A⭑
         - TW经济x1.5B⭑
         - TW经济x1.5C⭑
         - TW经济x1.5D⭑
+        - TW商务x1.5A♚
+        - TW商务x1.5B♚
+        - TW商务x1.5C♚
+        - TW头等x1.8A♛
+        - TW头等x1.8B♛
     - name: Steam
       type: select
       proxies:
