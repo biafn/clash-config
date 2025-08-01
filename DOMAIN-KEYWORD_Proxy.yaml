@@ -4,7 +4,10 @@ payload:
     - DOMAIN-KEYWORD,wallhaven.cc
     - DOMAIN-KEYWORD,chinadigitaltimes
     #
-
+    #jmcomic
+    - DOMAIN-KEYWORD,18comic
+    - DOMAIN-KEYWORD,jm18c
+    #
     - DOMAIN-KEYWORD,huggingface.co
     - DOMAIN-KEYWORD,raw.githubusercontent.com
     - DOMAIN-KEYWORD,civitai.com
