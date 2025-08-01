@@ -5,6 +5,7 @@ payload:
     - DOMAIN-SUFFIX,zh.savefrom.net
     - DOMAIN-SUFFIX,snow-plus.net
     - DOMAIN-SUFFIX,allow.18madou4.com
+    #- DOMAIN-SUFFIX,urlimage.cc
     #
     - DOMAIN-SUFFIX,crxsoso.com
     - DOMAIN-SUFFIX,pki.goog
@@ -345,7 +346,7 @@ payload:
     - DOMAIN-SUFFIX,uploader.jp
     - DOMAIN-SUFFIX,upmedia.mg
     - DOMAIN-SUFFIX,uptodown.com
-    - DOMAIN-SUFFIX,urlimage.cc
+
     - DOMAIN-SUFFIX,urlload.net
     - DOMAIN-SUFFIX,ustream.tv
     - DOMAIN-SUFFIX,uu-gg.one
