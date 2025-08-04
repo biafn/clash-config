@@ -127,28 +127,6 @@ proxy-groups:
       #url: 'https://chatgpt.com'
       #interval: 86400
       proxies:
-        - HK经济x1.5A⭑
-        - HK经济x1.5B⭑
-        - HK经济x1.5C⭑
-        - HK经济x1.5D⭑
-        - HK经济x1.5E⭑
-        - HK经济x1.5F⭑
-        - HK商务x1.7A♚
-        - HK商务x1.7B♚
-        - HK商务x1.7C♚
-        - HK商务x1.7D♚
-        - HK头等x1.8A♛
-        - HK头等x1.8B♛
-        - HK头等x1.8C♛
-        - HK头等x1.8D♛
-        - JP经济x1.7A⭑
-        - JP经济x1.7B⭑
-        - JP经济x1.7C⭑
-        - JP经济x1.7D⭑
-        - JP头等x1.8A♛
-        - JP头等x1.8B♛
-        - KR商务x2A♚
-        - KR商务x2B♚
         - SG经济x1.5A⭑
         - SG经济x1.5B⭑
         - SG经济x1.5C⭑
@@ -162,16 +140,6 @@ proxy-groups:
         - TW商务x1.5A♚
         - TW商务x1.5B♚
         - TW商务x1.5C♚
-        - TW头等x1.8A♛
-        - TW头等x1.8B♛
-        - US经济x1.8A⭑
-        - US经济x1.8B⭑
-        - US经济x1.8C⭑
-        - US经济x1.8D⭑
-        - US商务x1.8A♚
-        - US商务x1.8B♚
-        - US头等x1.8A♛
-        - US头等x1.8B♛
     - name: Steam
       type: select
       proxies:
@@ -731,3 +699,4 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
