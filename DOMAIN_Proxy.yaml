@@ -2,6 +2,7 @@ payload:
 #自定义
     - DOMAIN,service.iwara.shop
     - DOMAIN,sjscn.cc
+    - DOMAIN,tangdi.artstation.com
 
 #自定义
     - DOMAIN,vip.2020card.com
