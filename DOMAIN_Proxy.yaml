@@ -4,6 +4,7 @@ payload:
     - DOMAIN,sjscn.cc
     - DOMAIN,tangdi.artstation.com
     - DOMAIN,www.artstation.com
+    - DOMAIN,cdn.artstation.com
 
 #自定义
     - DOMAIN,vip.2020card.com
