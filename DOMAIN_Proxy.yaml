@@ -3,6 +3,7 @@ payload:
     - DOMAIN,service.iwara.shop
     - DOMAIN,sjscn.cc
     - DOMAIN,tangdi.artstation.com
+    - DOMAIN,www.artstation.com
 
 #自定义
     - DOMAIN,vip.2020card.com
