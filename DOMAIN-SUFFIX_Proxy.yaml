@@ -382,7 +382,6 @@ payload:
     - DOMAIN-SUFFIX,wsj.com
     - DOMAIN-SUFFIX,wsj.net
     - DOMAIN-SUFFIX,x.company
-    - DOMAIN-SUFFIX,xboxlive.com
     - DOMAIN-SUFFIX,xfinity.com
     - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
     - DOMAIN-SUFFIX,xsijishe.com
