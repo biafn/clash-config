@@ -577,7 +577,6 @@ rules:
     - 'DOMAIN-SUFFIX,shadowsocks.org,火箭TNT'
     - 'DOMAIN-SUFFIX,sharethis.com,火箭TNT'
     - 'DOMAIN-SUFFIX,shazam.com,火箭TNT'
-    - 'DOMAIN-SUFFIX,skype.com,火箭TNT'
     - 'DOMAIN-SUFFIX,smartdns火箭TNT.com,火箭TNT'
     - 'DOMAIN-SUFFIX,smartmailcloud.com,火箭TNT'
     - 'DOMAIN-SUFFIX,sndcdn.com,火箭TNT'
@@ -699,5 +698,6 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
