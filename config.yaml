@@ -123,9 +123,9 @@ proxy-groups:
         - 火箭TNT
         - DIRECT
     - name: Openai
-      type: select
-      #url: 'https://chatgpt.com'
-      #interval: 86400
+      type: url-test
+      url: 'https://chatgpt.com'
+      interval: 3600
       proxies:
         - SG经济x1.5A⭑
         - SG经济x1.5B⭑
@@ -699,4 +699,5 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
