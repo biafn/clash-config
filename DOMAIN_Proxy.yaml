@@ -5,6 +5,7 @@ payload:
     - DOMAIN,tangdi.artstation.com
     - DOMAIN,www.artstation.com
     - DOMAIN,cdn.artstation.com
+    - DOMAIN,cdn.board.zash.run.place
 
 #自定义
     - DOMAIN,vip.2020card.com
