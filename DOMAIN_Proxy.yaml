@@ -6,7 +6,7 @@ payload:
     - DOMAIN,www.artstation.com
     - DOMAIN,cdn.artstation.com
     - DOMAIN,cdn.board.zash.run.place
-
+    - DOMAIN,onedrive.live.com
 #自定义
     - DOMAIN,vip.2020card.com
     - DOMAIN,steamcommunity.com
