@@ -141,7 +141,7 @@ proxy-groups:
         - 'SG经济x1.5D⭑'
 
     - name: 高费率
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 86400
       proxies:
@@ -779,6 +779,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
