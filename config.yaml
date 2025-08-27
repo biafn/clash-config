@@ -244,6 +244,13 @@ proxy-groups:
 
 
 rule-providers:
+  ruleset_1:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/ruleset_1.yaml
+    path: ./ruleset_1
+    interval: 86400
+
   DOMAIN-KEYWORD_Proxy:
     type: http
     behavior: classical
@@ -273,6 +280,7 @@ rule-providers:
     interval: 86400
         
 rules:
+    - RULE-SET,ruleset_1,火箭TNT
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
     - RULE-SET,DOMAIN_Proxy,火箭TNT
@@ -771,6 +779,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
