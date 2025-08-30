@@ -1,5 +1,6 @@
 payload:
 #自定义
+    - DOMAIN,codeload.github.com
 #自定义
     - DOMAIN-SUFFIX,bdimg.com
     - DOMAIN-SUFFIX,bdstatic.com
