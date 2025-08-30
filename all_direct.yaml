@@ -1,7 +1,7 @@
 payload:
 #自定义
     - DOMAIN,codeload.github.com
-    - DOMAIN-KEY,dl-a10b
+    - DOMAIN-KEYWORD,dl-a10b
 #自定义
     - DOMAIN-SUFFIX,bdimg.com
     - DOMAIN-SUFFIX,bdstatic.com
