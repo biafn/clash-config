@@ -1,6 +1,6 @@
 payload:
 #自定义
     - DOMAIN,sjs47.com
-    #- DOMAIN,urlimage.cc
+    - DOMAIN,bbs.east-plus.net
 #自定义
     - DOMAIN-SUFFIX,mypikpak.com
