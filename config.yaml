@@ -229,6 +229,7 @@ proxy-groups:
         - US商务x1.8B♚
         - US头等x1.8A♛
         - US头等x1.8B♛
+        - 火箭TNT
         - DIRECT
     - name: c站下载
       type: select
@@ -298,16 +299,11 @@ rules:
     #- DOMAIN-SUFFIX,challenges.cloudflare.com,Openai
     #ChatGPT
 
-    # 🎯 国服 Battle.net（中国战网、网易服务器）走直连
-    - DOMAIN-SUFFIX,battle.net.cn,DIRECT
-    - DOMAIN-SUFFIX,blzstatic.cn,DIRECT
-    - DOMAIN-KEYWORD,blizzardcdn,DIRECT
     # 🌐 美服 Battle.net & 炉石走代理
-    - DOMAIN-SUFFIX,battle.net,炉石美服
+    - PROCESS-NAME,Battle.net.exe,炉石美服
+    - PROCESS-NAME,Hearthstone.exe,炉石美服
     - DOMAIN-SUFFIX,blizzard.com,炉石美服
-    - DOMAIN-KEYWORD,blz,炉石美服
-    - IP-CIDR,137.221.0.0/16,炉石美服,no-resolve
-    - IP-CIDR,24.105.0.0/16,炉石美服,no-resolve
+    - DOMAIN-SUFFIX,battle.net,炉石美服
 
     
     - DOMAIN-KEYWORD,github,Github
@@ -779,6 +775,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
