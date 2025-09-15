@@ -2,5 +2,6 @@ payload:
 #自定义
     - DOMAIN,sjs47.com
     - DOMAIN,bbs.east-plus.net
+    - DOMAIN-SUFFIX,laowang.vip
 #自定义
     - DOMAIN-SUFFIX,mypikpak.com
