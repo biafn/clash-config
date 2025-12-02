@@ -203,6 +203,7 @@ proxy-groups:
       url: 'https://chatgpt.com'
       interval: 3600
       proxies:
+        - 低费率自动选择
         - HK地区
         - JP地区
         - KR地区
