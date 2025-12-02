@@ -115,7 +115,7 @@ proxy-groups:
         - US头等x1.8B♛
         - DIRECT
         
-    - name: 666
+    - name: 我无语了
       type: url-test
       url: 'https://chatgpt.com'
       interval: 3600
@@ -826,6 +826,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
