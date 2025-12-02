@@ -208,12 +208,6 @@ proxy-groups:
         - 'TW商务x1.5A♚'
         - 'TW商务x1.5B♚'
         - 'TW商务x1.5C♚'
-        - 'HK经济x1.5A⭑'
-        - 'HK经济x1.5B⭑'
-        - 'HK经济x1.5C⭑'
-        - 'HK经济x1.5D⭑'
-        - 'HK经济x1.5E⭑'
-        - 'HK经济x1.5F⭑'
         - 'TW经济x1.5A⭑'
         - 'TW经济x1.5B⭑'
         - 'TW经济x1.5C⭑'
@@ -866,6 +860,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
