@@ -66,8 +66,8 @@ proxy-groups:
     - name: 火箭TNT
       type: select
       proxies:
-        - 自动选择
-        - 高费率
+        - 低费率自动选择
+        - 全节点自动选择
         - HK经济x1.5A⭑
         - HK经济x1.5B⭑
         - HK经济x1.5C⭑
@@ -115,58 +115,9 @@ proxy-groups:
         - US头等x1.8B♛
         - DIRECT
         
-    - name: 我无语了
-      type: url-test
-      url: 'https://chatgpt.com'
-      interval: 3600
-      proxies:
-        - HK经济x1.5A⭑
-        - HK经济x1.5B⭑
-        - HK经济x1.5C⭑
-        - HK经济x1.5D⭑
-        - HK经济x1.5E⭑
-        - HK经济x1.5F⭑
-        - HK商务x1.7A♚
-        - HK商务x1.7B♚
-        - HK商务x1.7C♚
-        - HK商务x1.7D♚
-        - HK头等x1.8A♛
-        - HK头等x1.8B♛
-        - HK头等x1.8C♛
-        - HK头等x1.8D♛
-        - JP经济x1.7A⭑
-        - JP经济x1.7B⭑
-        - JP经济x1.7C⭑
-        - JP经济x1.7D⭑
-        - JP头等x1.8A♛
-        - JP头等x1.8B♛
-        - KR商务x2A♚
-        - KR商务x2B♚
-        - SG经济x1.5A⭑
-        - SG经济x1.5B⭑
-        - SG经济x1.5C⭑
-        - SG经济x1.5D⭑
-        - SG头等x1.5A♛
-        - SG头等x1.5B♛
-        - TW经济x1.5A⭑
-        - TW经济x1.5B⭑
-        - TW经济x1.5C⭑
-        - TW经济x1.5D⭑
-        - TW商务x1.5A♚
-        - TW商务x1.5B♚
-        - TW商务x1.5C♚
-        - TW头等x1.8A♛
-        - TW头等x1.8B♛
-        - US经济x1.8A⭑
-        - US经济x1.8B⭑
-        - US经济x1.8C⭑
-        - US经济x1.8D⭑
-        - US商务x1.8A♚
-        - US商务x1.8B♚
-        - US头等x1.8A♛
-        - US头等x1.8B♛
+    
         
-    - name: 自动选择
+    - name: 低费率自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -191,7 +142,7 @@ proxy-groups:
         - 'SG经济x1.5C⭑'
         - 'SG经济x1.5D⭑'
 
-    - name: 高费率
+    - name: 全节点自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 86400
@@ -246,11 +197,18 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT
+        
     - name: Openai
       type: url-test
       url: 'https://chatgpt.com'
       interval: 3600
       proxies:
+        - HK地区
+        - JP地区
+        - KR地区
+        - SG地区
+        - TW地区
+        - US地区
         - SG经济x1.5A⭑
         - SG经济x1.5B⭑
         - SG经济x1.5C⭑
@@ -264,6 +222,7 @@ proxy-groups:
         - TW商务x1.5A♚
         - TW商务x1.5B♚
         - TW商务x1.5C♚
+        
     - name: Steam
       type: select
       proxies:
@@ -292,7 +251,88 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT  
+        
+    - name: HK地区
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 3600
+      proxies:
+        - HK经济x1.5A⭑
+        - HK经济x1.5B⭑
+        - HK经济x1.5C⭑
+        - HK经济x1.5D⭑
+        - HK经济x1.5E⭑
+        - HK经济x1.5F⭑
+        - HK商务x1.7A♚
+        - HK商务x1.7B♚
+        - HK商务x1.7C♚
+        - HK商务x1.7D♚
+        - HK头等x1.8A♛
+        - HK头等x1.8B♛
+        - HK头等x1.8C♛
+        - HK头等x1.8D♛
 
+    - name: JP地区
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 3600
+      proxies:
+        - JP经济x1.7A⭑
+        - JP经济x1.7B⭑
+        - JP经济x1.7C⭑
+        - JP经济x1.7D⭑
+        - JP头等x1.8A♛
+        - JP头等x1.8B♛
+
+    - name: KR地区
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 3600
+      proxies:
+        - KR商务x2A♚
+        - KR商务x2B♚
+
+    - name: SG地区
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 3600
+      proxies:
+        - SG经济x1.5A⭑
+        - SG经济x1.5B⭑
+        - SG经济x1.5C⭑
+        - SG经济x1.5D⭑
+        - SG头等x1.5A♛
+        - SG头等x1.5B♛
+
+    - name: TW地区
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 3600
+      proxies:
+        - TW经济x1.5A⭑
+        - TW经济x1.5B⭑
+        - TW经济x1.5C⭑
+        - TW经济x1.5D⭑
+        - TW商务x1.5A♚
+        - TW商务x1.5B♚
+        - TW商务x1.5C♚
+        - TW头等x1.8A♛
+        - TW头等x1.8B♛
+
+    - name: US地区
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 3600
+      proxies:
+        - US经济x1.8A⭑
+        - US经济x1.8B⭑
+        - US经济x1.8C⭑
+        - US经济x1.8D⭑
+        - US商务x1.8A♚
+        - US商务x1.8B♚
+        - US头等x1.8A♛
+        - US头等x1.8B♛
+    
 
 
 rule-providers:
