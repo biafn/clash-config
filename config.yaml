@@ -119,6 +119,7 @@ proxy-groups:
       type: url-test
       url: 'https://chatgpt.com'
       interval: 3600
+      proxies:
         - HK经济x1.5A⭑
         - HK经济x1.5B⭑
         - HK经济x1.5C⭑
@@ -825,6 +826,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
