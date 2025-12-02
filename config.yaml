@@ -199,7 +199,7 @@ proxy-groups:
         - DIRECT
         
     - name: Openai
-      type: url-test
+      type: select
       url: 'https://chatgpt.com'
       interval: 3600
       proxies:
@@ -867,6 +867,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
