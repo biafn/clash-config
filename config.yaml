@@ -274,19 +274,7 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT
-    - name: 炉石美服
-      type: select
-      proxies:
-        - US经济x1.8A⭑
-        - US经济x1.8B⭑
-        - US经济x1.8C⭑
-        - US经济x1.8D⭑
-        - US商务x1.8A♚
-        - US商务x1.8B♚
-        - US头等x1.8A♛
-        - US头等x1.8B♛
-        - 火箭TNT
-        - DIRECT
+
     - name: c站下载
       type: select
       proxies:
@@ -435,12 +423,6 @@ rules:
     - DOMAIN-SUFFIX,api.openai.com,ChatGPT
     #- DOMAIN-SUFFIX,challenges.cloudflare.com,ChatGPT
     #ChatGPT
-
-    # 🌐 美服 Battle.net & 炉石走代理
-    - PROCESS-NAME,Battle.net.exe,炉石美服
-    - PROCESS-NAME,Hearthstone.exe,炉石美服
-    - DOMAIN-SUFFIX,blizzard.com,炉石美服
-    - DOMAIN-SUFFIX,battle.net,炉石美服
 
     
     - DOMAIN-KEYWORD,github,Github
@@ -912,6 +894,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
