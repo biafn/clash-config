@@ -197,7 +197,7 @@ proxy-groups:
         - 火箭TNT
         - DIRECT
         
-     - name: 分类低费率自动选择
+    - name: 分类低费率自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -900,6 +900,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
