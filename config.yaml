@@ -73,8 +73,8 @@ proxy-groups:
     - name: 火箭TNT
       type: select
       proxies:
-        - 低费率自动选择
-        - 全节点自动选择
+        - 分类低费率自动选择
+        - 分类全节点自动选择
         - HK经济x1.5A⭑
         - HK经济x1.5B⭑
         - HK经济x1.5C⭑
@@ -124,7 +124,80 @@ proxy-groups:
         
     
         
-    - name: 低费率自动选择
+
+    - name: Github
+      type: select
+      proxies:
+        - 火箭TNT
+        - DIRECT
+        
+    - name: ChatGPT
+      type: select
+      url: 'https://chatgpt.com'
+      interval: 3600
+      proxies:
+        - 分类低gpt
+        - 'HK头等x1.8A♛'
+        - 'HK头等x1.8B♛'
+        - 'HK头等x1.8C♛'
+        - 'HK头等x1.8D♛'
+        - 'TW头等x1.8A♛'
+        - 'TW头等x1.8B♛'
+        - 'JP头等x1.8A♛'
+        - 'JP头等x1.8B♛'
+        - 'US头等x1.8A♛'
+        - 'US头等x1.8B♛'
+        - 'SG头等x1.5A♛'
+        - 'SG头等x1.5B♛'
+        - 'HK商务x1.7A♚'
+        - 'HK商务x1.7B♚'
+        - 'HK商务x1.7C♚'
+        - 'HK商务x1.7D♚'
+        - 'TW商务x1.5A♚'
+        - 'TW商务x1.5B♚'
+        - 'TW商务x1.5C♚'
+        - 'US商务x1.8A♚'
+        - 'US商务x1.8B♚'
+        - 'HK经济x1.5A⭑'
+        - 'HK经济x1.5B⭑'
+        - 'HK经济x1.5C⭑'
+        - 'HK经济x1.5D⭑'
+        - 'HK经济x1.5E⭑'
+        - 'HK经济x1.5F⭑'
+        - 'TW经济x1.5A⭑'
+        - 'TW经济x1.5B⭑'
+        - 'TW经济x1.5C⭑'
+        - 'TW经济x1.5D⭑'
+        - 'JP经济x1.7A⭑'
+        - 'JP经济x1.7B⭑'
+        - 'JP经济x1.7C⭑'
+        - 'JP经济x1.7D⭑'
+        - 'US经济x1.8A⭑'
+        - 'US经济x1.8B⭑'
+        - 'US经济x1.8C⭑'
+        - 'US经济x1.8D⭑'
+        - 'SG经济x1.5A⭑'
+        - 'SG经济x1.5B⭑'
+        - 'SG经济x1.5C⭑'
+        - 'SG经济x1.5D⭑'
+        - 'KR商务x2A♚'
+        - 'KR商务x2B♚'
+        
+       
+        
+    - name: Steam
+      type: select
+      proxies:
+        - 火箭TNT
+        - DIRECT
+
+    - name: c站下载
+      type: select
+      proxies:
+        - 火箭TNT
+        - DIRECT
+        
+     - name: 分类低费率自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -149,7 +222,26 @@ proxy-groups:
         - 'SG经济x1.5C⭑'
         - 'SG经济x1.5D⭑'
 
-    - name: 全节点自动选择
+    - name: 分类低gpt
+      type: url-test
+      url: 'https://chatgpt.com'
+      interval: 3600
+      proxies:
+        - 'SG头等x1.5A♛'
+        - 'SG头等x1.5B♛'
+        - 'TW商务x1.5A♚'
+        - 'TW商务x1.5B♚'
+        - 'TW商务x1.5C♚'
+        - 'TW经济x1.5A⭑'
+        - 'TW经济x1.5B⭑'
+        - 'TW经济x1.5C⭑'
+        - 'TW经济x1.5D⭑'
+        - 'SG经济x1.5A⭑'
+        - 'SG经济x1.5B⭑'
+        - 'SG经济x1.5C⭑'
+        - 'SG经济x1.5D⭑' 
+        
+    - name: 分类全节点自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 86400
@@ -199,95 +291,6 @@ proxy-groups:
         - 'SG经济x1.5D⭑'
         - 'KR商务x2A♚'
         - 'KR商务x2B♚'
-    - name: Github
-      type: select
-      proxies:
-        - 火箭TNT
-        - DIRECT
-        
-    - name: ChatGPT
-      type: select
-      url: 'https://chatgpt.com'
-      interval: 3600
-      proxies:
-        - 低gpt
-        - 'HK头等x1.8A♛'
-        - 'HK头等x1.8B♛'
-        - 'HK头等x1.8C♛'
-        - 'HK头等x1.8D♛'
-        - 'TW头等x1.8A♛'
-        - 'TW头等x1.8B♛'
-        - 'JP头等x1.8A♛'
-        - 'JP头等x1.8B♛'
-        - 'US头等x1.8A♛'
-        - 'US头等x1.8B♛'
-        - 'SG头等x1.5A♛'
-        - 'SG头等x1.5B♛'
-        - 'HK商务x1.7A♚'
-        - 'HK商务x1.7B♚'
-        - 'HK商务x1.7C♚'
-        - 'HK商务x1.7D♚'
-        - 'TW商务x1.5A♚'
-        - 'TW商务x1.5B♚'
-        - 'TW商务x1.5C♚'
-        - 'US商务x1.8A♚'
-        - 'US商务x1.8B♚'
-        - 'HK经济x1.5A⭑'
-        - 'HK经济x1.5B⭑'
-        - 'HK经济x1.5C⭑'
-        - 'HK经济x1.5D⭑'
-        - 'HK经济x1.5E⭑'
-        - 'HK经济x1.5F⭑'
-        - 'TW经济x1.5A⭑'
-        - 'TW经济x1.5B⭑'
-        - 'TW经济x1.5C⭑'
-        - 'TW经济x1.5D⭑'
-        - 'JP经济x1.7A⭑'
-        - 'JP经济x1.7B⭑'
-        - 'JP经济x1.7C⭑'
-        - 'JP经济x1.7D⭑'
-        - 'US经济x1.8A⭑'
-        - 'US经济x1.8B⭑'
-        - 'US经济x1.8C⭑'
-        - 'US经济x1.8D⭑'
-        - 'SG经济x1.5A⭑'
-        - 'SG经济x1.5B⭑'
-        - 'SG经济x1.5C⭑'
-        - 'SG经济x1.5D⭑'
-        - 'KR商务x2A♚'
-        - 'KR商务x2B♚'
-        
-    - name: 低gpt
-      type: url-test
-      url: 'https://chatgpt.com'
-      interval: 3600
-      proxies:
-        - 'SG头等x1.5A♛'
-        - 'SG头等x1.5B♛'
-        - 'TW商务x1.5A♚'
-        - 'TW商务x1.5B♚'
-        - 'TW商务x1.5C♚'
-        - 'TW经济x1.5A⭑'
-        - 'TW经济x1.5B⭑'
-        - 'TW经济x1.5C⭑'
-        - 'TW经济x1.5D⭑'
-        - 'SG经济x1.5A⭑'
-        - 'SG经济x1.5B⭑'
-        - 'SG经济x1.5C⭑'
-        - 'SG经济x1.5D⭑'        
-        
-    - name: Steam
-      type: select
-      proxies:
-        - 火箭TNT
-        - DIRECT
-
-    - name: c站下载
-      type: select
-      proxies:
-        - 火箭TNT
-        - DIRECT
- 
         
     - name: 分类HK地区
       type: url-test
@@ -897,6 +900,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
