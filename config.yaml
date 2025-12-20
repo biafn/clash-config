@@ -289,7 +289,7 @@ proxy-groups:
         - DIRECT
  
         
-    - name: HK地区
+    - name: 分类HK地区
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -309,7 +309,7 @@ proxy-groups:
         - HK头等x1.8C♛
         - HK头等x1.8D♛
 
-    - name: JP地区
+    - name: 分类JP地区
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -321,7 +321,7 @@ proxy-groups:
         - JP头等x1.8A♛
         - JP头等x1.8B♛
 
-    - name: KR地区
+    - name: 分类KR地区
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -329,7 +329,7 @@ proxy-groups:
         - KR商务x2A♚
         - KR商务x2B♚
 
-    - name: SG地区
+    - name: 分类SG地区
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -341,7 +341,7 @@ proxy-groups:
         - SG头等x1.5A♛
         - SG头等x1.5B♛
 
-    - name: TW地区
+    - name: 分类TW地区
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -356,7 +356,7 @@ proxy-groups:
         - TW头等x1.8A♛
         - TW头等x1.8B♛
 
-    - name: US地区
+    - name: 分类US地区
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
@@ -897,6 +897,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
