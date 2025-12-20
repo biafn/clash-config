@@ -200,7 +200,7 @@ proxy-groups:
     - name: 分类低费率自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
-      interval: 3600
+      interval: 600
       proxies:
         - 'SG头等x1.5A♛'
         - 'SG头等x1.5B♛'
@@ -244,7 +244,7 @@ proxy-groups:
     - name: 分类全节点自动选择
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
-      interval: 86400
+      interval: 600
       proxies:
         - 'HK头等x1.8A♛'
         - 'HK头等x1.8B♛'
@@ -900,6 +900,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
