@@ -1,9 +1,10 @@
 mixed-port: 7890
-全部ow-lan: true
+allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: info
 external-controller: '0.0.0.0:12345'
+
 dns:
     enable: true
     ipv6: false
@@ -64,13 +65,13 @@ proxies:
     - { name: KR商务x2B♚, type: vmess, server: www.hj200kr.xyz, port: 44124, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
     - name: Others
-      输入: select
+      type: select
       proxies:
         - 火箭TNT
         - DIRECT 
         
     - name: 火箭TNT
-      输入: select
+      type: select
       proxies:
         - 低费率自动选择
         - 全节点自动选择
@@ -124,7 +125,7 @@ proxy-groups:
     
         
     - name: 低费率自动选择
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
       proxies:
@@ -149,7 +150,7 @@ proxy-groups:
         - 'SG经济x1.5D⭑'
 
     - name: 全节点自动选择
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 86400
       proxies:
@@ -199,13 +200,13 @@ proxy-groups:
         - 'KR商务x2A♚'
         - 'KR商务x2B♚'
     - name: Github
-      输入: select
+      type: select
       proxies:
         - 火箭TNT
         - DIRECT
         
     - name: ChatGPT
-      输入: select
+      type: select
       url: 'https://chatgpt.com'
       interval: 3600
       proxies:
@@ -257,7 +258,7 @@ proxy-groups:
         - 'KR商务x2B♚'
         
     - name: 低gpt
-      输入: url-test
+      type: url-test
       url: 'https://chatgpt.com'
       interval: 3600
       proxies:
@@ -276,20 +277,20 @@ proxy-groups:
         - 'SG经济x1.5D⭑'        
         
     - name: Steam
-      输入: select
+      type: select
       proxies:
         - 火箭TNT
         - DIRECT
 
     - name: c站下载
-      输入: select
+      type: select
       proxies:
         - 火箭TNT
         - DIRECT
  
         
     - name: HK地区
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
       proxies:
@@ -309,7 +310,7 @@ proxy-groups:
         - HK头等x1.8D♛
 
     - name: JP地区
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
       proxies:
@@ -321,7 +322,7 @@ proxy-groups:
         - JP头等x1.8B♛
 
     - name: KR地区
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
       proxies:
@@ -329,7 +330,7 @@ proxy-groups:
         - KR商务x2B♚
 
     - name: SG地区
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
       proxies:
@@ -341,7 +342,7 @@ proxy-groups:
         - SG头等x1.5B♛
 
     - name: TW地区
-      输入: url-test
+      type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 3600
       proxies:
@@ -896,6 +897,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
