@@ -3,6 +3,7 @@ payload:
     - DOMAIN,sjs47.com
     - DOMAIN,bbs.east-plus.net
     - DOMAIN-SUFFIX,laowang.vip
+    - DOMAIN-SUFFIX,spring-plus.net
 #自定义
     - DOMAIN-SUFFIX,mypikpak.com
     - DOMAIN-KEYWORD,tiktok
