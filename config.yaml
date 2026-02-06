@@ -231,6 +231,8 @@ proxy-groups:
       url: 'https://chatgpt.com'
       interval: 300
       proxies:
+        - 'SG头等x1.5A♛'
+        - 'SG头等x1.5B♛'
         - 'TW商务x1.5A♚'
         - 'TW商务x1.5B♚'
         - 'TW商务x1.5C♚'
@@ -905,6 +907,7 @@ rules:
     - 'DOMAIN-KEYWORD,-cn,DIRECT'
     
     - 'MATCH,Others'
+
 
 
 
