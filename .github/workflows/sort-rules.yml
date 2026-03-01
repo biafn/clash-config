@@ -16,8 +16,8 @@ jobs:
 
     - name: Sort domains file
       run: |
-        # 假设规则文件名是 clash-rules.yaml，请替换成你实际的文件名
-        sort -o clash-rules.yaml clash-rules.yaml  # 按字母顺序对规则文件进行排序
+        # 假设规则文件名是 direct.yaml，请替换成你实际的文件名
+        sort -o direct.yaml direct.yaml  # 按字母顺序对规则文件进行排序
 
     - name: Commit sorted file
       run: |
