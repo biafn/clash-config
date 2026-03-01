@@ -1,26 +1,9 @@
-payload:payload:
-payload:payload:
-    - DOMAIN-KEYWORD,al-a10b
-    - DOMAIN-SUFFIX,bdimg.com
-    - DOMAIN-SUFFIX,caiyunapp.com
-    - DOMAIN-SUFFIX,clouddn.com
-    - DOMAIN,codeload.github.com
-    - DOMAIN-KEYWORD,dl-a10b
+payload:
+#自定义
     - DOMAIN,codeload.github.com
     - DOMAIN-KEYWORD,dl-a10b
     - DOMAIN-KEYWORD,al-a10b
-    - DOMAIN-SUFFIX,clouddn.com
-    - DOMAIN-SUFFIX,caiyunapp.com
-    - DOMAIN-SUFFIX,bdimg.com
-    - DOMAIN-KEYWORD,al-a10b
-    - DOMAIN-SUFFIX,bdimg.com
-    - DOMAIN-SUFFIX,caiyunapp.com
-    - DOMAIN-SUFFIX,clouddn.com
-    - DOMAIN,codeload.github.com
-    - DOMAIN-KEYWORD,dl-a10b
-    - DOMAIN,codeload.github.com
-    - DOMAIN-KEYWORD,dl-a10b
-    - DOMAIN-KEYWORD,al-a10b
+#自定义
     - DOMAIN-SUFFIX,clouddn.com
     - DOMAIN-SUFFIX,caiyunapp.com
     - DOMAIN-SUFFIX,bdimg.com
