@@ -23,14 +23,13 @@ jobs:
 
         # 提取文件中的 payload: 部分，保留它不变
         awk '/payload:/ {print $0}' $FILE_PATH > sorted_temp.yaml
-        
+
         # 提取并排序 #自定义 区域中的 DOMAIN 部分（按域名排序）
-        # 先提取 #自定义 区域的所有规则并去重，然后按域名排序
-        awk '/#自定义/ {f=1} f && /DOMAIN/ {print $0} f && !/#自定义/ {f=0}' $FILE_PATH | \
+        # 提取 #自定义 区域并确保注释行保留
+        awk '/#自定义/ {f=1} f && /DOMAIN/ {print $0} f && !/#自定义/ {f=0} !/#自定义/ {print $0}' $FILE_PATH | \
         sort -t',' -k2 -u >> sorted_temp.yaml  # -u 选项用于去重
 
-        # 合并文件，将排序后的内容添加到 sorted_temp.yaml
-        # 继续处理文件中剩余部分，并将排序结果写回 sorted_temp.yaml
+        # 合并除了 #自定义 和 payload: 之外的其他部分
         awk '!/#自定义/ && !/payload:/ {print $0}' $FILE_PATH >> sorted_temp.yaml
 
         # 将排序后的内容覆盖原始的 direct.yaml 文件
