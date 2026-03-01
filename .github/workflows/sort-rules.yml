@@ -1,28 +1,41 @@
-
-name: Sort Domain Rules
+name: Sort Domain Rules by Region
 
 on:
   push:
     branches:
-      - main  # 监听 main 分支的提交，如果你使用其他分支，请修改这里
+      - main  # 监听 main 分支的提交
 
 jobs:
   sort:
-    runs-on: ubuntu-latest  # 选择运行的操作系统（Ubuntu）
+    runs-on: ubuntu-latest  # 在 Ubuntu 系统上运行
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2  # 获取你的代码
+      uses: actions/checkout@v2  # 获取最新的代码
 
-    - name: Sort domains file
+    - name: Sort domains file by region
       run: |
-        # 假设规则文件名是 direct.yaml，请替换成你实际的文件名
-        sort -o direct.yaml direct.yaml  # 按字母顺序对规则文件进行排序
+        # 设置要处理的文件路径
+        FILE_PATH="direct.yaml"  # 这是你原始的文件路径
+
+        # 提取文件中的 payload: 部分，保留它不变
+        awk '/payload:/ {print $0}' $FILE_PATH > sorted_temp.yaml
+        
+        # 处理自定义区域及规则部分
+        # 提取 #自定义 区域及其中的规则，进行排序
+        awk '/#自定义/ {f=1} f && !/DOMAIN/ {print $0} f && /DOMAIN/ {print | "sort"; f=0}' $FILE_PATH >> sorted_temp.yaml
+        
+        # 合并文件，将排序后的内容添加到 sorted_temp.yaml
+        # 继续处理文件中剩余部分，并将排序结果写回 sorted_temp.yaml
+        awk '!/#自定义/ && !/payload:/ {print $0}' $FILE_PATH >> sorted_temp.yaml
+
+        # 将排序后的内容覆盖原始的 direct.yaml 文件
+        mv sorted_temp.yaml $FILE_PATH
 
     - name: Commit sorted file
       run: |
-        git config --global user.name "GitHub Actions"  # 配置 Git 用户名
-        git config --global user.email "actions@github.com"  # 配置 Git 邮箱
-        git add clash-rules.yaml  # 添加修改后的文件到暂存区
-        git commit -m "Auto-sort domain rules"  # 提交排序后的文件
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add $FILE_PATH  # 将修改后的 direct.yaml 添加到暂存区
+        git commit -m "Auto-sort domain rules by region"  # 提交修改后的文件
         git push  # 将更改推送到远程仓库
