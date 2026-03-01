@@ -5,6 +5,9 @@ on:
     branches:
       - main  # 监听 main 分支的提交
 
+permissions:
+  contents: write  # 确保 GitHub Actions 具有推送权限
+
 jobs:
   sort:
     runs-on: ubuntu-latest  # 在 Ubuntu 系统上运行
