@@ -415,10 +415,10 @@ rule-providers:
     path: ./DOMAIN_Proxy.yaml
     interval: 86400
     
-  all_direct:
+  direct:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/biafn/clash-config/main/all_direct.yaml
+    url: https://raw.githubusercontent.com/biafn/clash-config/main/direct.yaml
     path: ./DIRECT.yaml
     interval: 86400
         
@@ -427,7 +427,7 @@ rules:
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
     - RULE-SET,DOMAIN_Proxy,火箭TNT
-    - RULE-SET,all_direct,DIRECT
+    - RULE-SET,direct,DIRECT
 
 # 自定义
     #ChatGPT
@@ -910,6 +910,7 @@ rules:
     
     
     - 'MATCH,Others'
+
 
 
 
