@@ -4,12 +4,12 @@ payload:
     - DOMAIN-KEYWORD,dl-a10b
     - DOMAIN-KEYWORD,al-a10b
 #自定义
+    - DOMAIN-SUFFIX,clouddn.com
+    - DOMAIN-SUFFIX,caiyunapp.com
     - DOMAIN-SUFFIX,bdimg.com
     - DOMAIN-SUFFIX,bdstatic.com
     - DOMAIN-SUFFIX,bilibili.com
     - DOMAIN-SUFFIX,bilivideo.com
-    - DOMAIN-SUFFIX,caiyunapp.com
-    - DOMAIN-SUFFIX,clouddn.com
     - DOMAIN-SUFFIX,cnbeta.com
     - DOMAIN-SUFFIX,cnbetacdn.com
     - DOMAIN-SUFFIX,cootekservice.com
