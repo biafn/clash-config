@@ -25,9 +25,9 @@ jobs:
         awk '/payload:/ {print $0}' $FILE_PATH > sorted_temp.yaml
         
         # 提取并排序 #自定义 区域中的 DOMAIN 部分（按域名排序）
-        # 这里提取出每个规则的 DOMAIN 字段（例如 DOMAIN-SUFFIX, DOMAIN），并按域名排序
+        # 先提取 #自定义 区域的所有规则并去重，然后按域名排序
         awk '/#自定义/ {f=1} f && /DOMAIN/ {print $0} f && !/#自定义/ {f=0}' $FILE_PATH | \
-        sort -t',' -k2 >> sorted_temp.yaml  # 按域名（第二列）排序
+        sort -t',' -k2 -u >> sorted_temp.yaml  # -u 选项用于去重
 
         # 合并文件，将排序后的内容添加到 sorted_temp.yaml
         # 继续处理文件中剩余部分，并将排序结果写回 sorted_temp.yaml
