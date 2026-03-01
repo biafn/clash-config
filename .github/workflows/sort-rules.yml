@@ -41,4 +41,6 @@ jobs:
         git add .  # 添加所有文件（包括 direct.yaml）
         
         git commit -m "Auto-sort domain rules by region"  # 提交修改后的文件
-        git push  # 将更改推送到远程仓库
+        
+        # 使用 GITHUB_TOKEN 来授权推送更改
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
