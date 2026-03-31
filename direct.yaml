@@ -58,8 +58,6 @@ payload:
     - DOMAIN-SUFFIX,office365.com
     - DOMAIN-KEYWORD,officecdn
     - DOMAIN-SUFFIX,functional.events.data.microsoft.com
-    - DOMAIN-KEYWORD,googleLEAPIS
-    - DOMAIN-KEYWORD,google-analytics.com
     - DOMAIN-KEYWORD,s-usc1b-nss-2123.firebaseio.com
     - DOMAIN-KEYWORD,bilibili
     - DOMAIN-SUFFIX,acg.tv
