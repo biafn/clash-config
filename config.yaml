@@ -224,10 +224,12 @@ proxy-groups:
         - HK商务x1.7B♚
         - HK商务x1.7C♚
         - HK商务x1.7D♚
-        - HK头等x1.8A♛
-        - HK头等x1.8B♛
-        - HK头等x1.8C♛
-        - HK头等x1.8D♛
+        #- HK头等x1.8A♛
+        #- HK头等x1.8B♛
+        #- HK头等x1.8C♛
+        #- HK头等x1.8D♛
+        - HK头等x1.8E♛
+        - HK头等x1.8F♛
 
     - name: 日本-全
       type: url-test
