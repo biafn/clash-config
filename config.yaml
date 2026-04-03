@@ -18,10 +18,13 @@ dns:
     fallback: ['https://lion.madns-apple.site:2443/dns-query', 'https://eagle.madns-orange.site:2443/dns-query', 'https://panda.madns-banana.site:2443/dns-query', 'https://shark.madns-grape.site:2443/dns-query', 'https://zebra.madns-mango.site:2443/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4, 0.0.0.0/32], domain: [+.google.com, +.facebook.com, +.youtube.com] }
 proxies:
-    - { name: HK头等x1.8A♛, type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK头等x1.8B♛, type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK头等x1.8C♛, type: vmess, server: xg.litepath.world, port: 25514, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK头等x1.8D♛, type: vmess, server: xg.litepath.world, port: 25515, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    #- { name: HK头等x1.8A♛, type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    #- { name: HK头等x1.8B♛, type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    #- { name: HK头等x1.8C♛, type: vmess, server: xg.litepath.world, port: 25514, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    #- { name: HK头等x1.8D♛, type: vmess, server: xg.litepath.world, port: 25515, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK头等x1.8E♛, type: vmess, server: hk.keducafe.world, port: 56321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK头等x1.8F♛, type: vmess, server: hk.keducafe.world, port: 33142, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }    
+    
     - { name: TW头等x1.8A♛, type: vmess, server: toudengcan.snowgate.one, port: 33121, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: TW头等x1.8B♛, type: vmess, server: toudengcan.snowgate.one, port: 33122, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: JP头等x1.8A♛, type: vmess, server: toudc.jpluodi.xyz, port: 32325, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
