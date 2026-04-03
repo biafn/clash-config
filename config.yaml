@@ -106,7 +106,7 @@ proxy-groups:
         
     - name: ChatGPT
       type: select
-      url: 'https://chatgpt.com'
+      url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
         - GPT低
@@ -129,7 +129,7 @@ proxy-groups:
         
     - name: GPT低
       type: url-test
-      url: 'https://chatgpt.com'
+      url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
         - 台湾-低
@@ -137,7 +137,7 @@ proxy-groups:
         
     - name: GPT高
       type: url-test
-      url: 'https://chatgpt.com'
+      url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
         - 台湾-高
@@ -147,7 +147,7 @@ proxy-groups:
         
     - name: GPT全
       type: url-test
-      url: 'https://chatgpt.com'
+      url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
         - 香港-全
@@ -171,7 +171,7 @@ proxy-groups:
         
     - name: 低
       type: url-test
-      url: 'https://chatgpt.com'
+      url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
         - 香港-低
