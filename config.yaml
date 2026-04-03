@@ -74,54 +74,26 @@ proxy-groups:
     - name: 火箭TNT
       type: select
       proxies:
-        - 分类低费率自动选择
-        - 分类全节点自动选择
-        - HK经济x1.5A⭑
-        - HK经济x1.5B⭑
-        - HK经济x1.5C⭑
-        - HK经济x1.5D⭑
-        - HK经济x1.5E⭑
-        - HK经济x1.5F⭑
-        - HK商务x1.7A♚
-        - HK商务x1.7B♚
-        - HK商务x1.7C♚
-        - HK商务x1.7D♚
-        - HK头等x1.8A♛
-        - HK头等x1.8B♛
-        - HK头等x1.8C♛
-        - HK头等x1.8D♛
-        - JP经济x1.7A⭑
-        - JP经济x1.7B⭑
-        - JP经济x1.7C⭑
-        - JP经济x1.7D⭑
-        - JP头等x1.8A♛
-        - JP头等x1.8B♛
-        - KR商务x2A♚
-        - KR商务x2B♚
-        - SG经济x1.5A⭑
-        - SG经济x1.5B⭑
-        - SG经济x1.5C⭑
-        - SG经济x1.5D⭑
-        - SG头等x1.5A♛
-        - SG头等x1.5B♛
-        - TW经济x1.5A⭑
-        - TW经济x1.5B⭑
-        - TW经济x1.5C⭑
-        - TW经济x1.5D⭑
-        - TW商务x1.5A♚
-        - TW商务x1.5B♚
-        - TW商务x1.5C♚
-        - TW头等x1.8A♛
-        - TW头等x1.8B♛
-        - US经济x1.8A⭑
-        - US经济x1.8B⭑
-        - US经济x1.8C⭑
-        - US经济x1.8D⭑
-        - US商务x1.8A♚
-        - US商务x1.8B♚
-        - US头等x1.8A♛
-        - US头等x1.8B♛
-        - JP内测线路
+        - 全
+        - 低
+        - 高
+        
+        - 香港-全
+        - 香港-低
+        - 香港-高
+        
+        - 台湾-全
+        - 台湾-低
+        - 台湾-高
+        
+        - 新加坡-低
+        
+        - 日本-高
+        
+        - 美国-高
+        
+        - 韩国-高
+        
         - DIRECT
         
     
@@ -138,40 +110,9 @@ proxy-groups:
       url: 'https://chatgpt.com'
       interval: 300
       proxies:
-        - 分类低gpt
-        - 'TW头等x1.8A♛'
-        - 'TW头等x1.8B♛'
-        - 'JP头等x1.8A♛'
-        - 'JP头等x1.8B♛'
-        - 'US头等x1.8A♛'
-        - 'US头等x1.8B♛'
-        - 'SG头等x1.5A♛'
-        - 'SG头等x1.5B♛'
-        - 'TW商务x1.5A♚'
-        - 'TW商务x1.5B♚'
-        - 'TW商务x1.5C♚'
-        - 'US商务x1.8A♚'
-        - 'US商务x1.8B♚'
-        - 'TW经济x1.5A⭑'
-        - 'TW经济x1.5B⭑'
-        - 'TW经济x1.5C⭑'
-        - 'TW经济x1.5D⭑'
-        - 'JP经济x1.7A⭑'
-        - 'JP经济x1.7B⭑'
-        - 'JP经济x1.7C⭑'
-        - 'JP经济x1.7D⭑'
-        - 'US经济x1.8A⭑'
-        - 'US经济x1.8B⭑'
-        - 'US经济x1.8C⭑'
-        - 'US经济x1.8D⭑'
-        - 'SG经济x1.5A⭑'
-        - 'SG经济x1.5B⭑'
-        - 'SG经济x1.5C⭑'
-        - 'SG经济x1.5D⭑'
-        - 'KR商务x2A♚'
-        - 'KR商务x2B♚'
-        - JP内测线路
-        
+        - GPT低
+        - GPT高
+        - GPT全
        
         
     - name: Steam
@@ -186,123 +127,82 @@ proxy-groups:
         - 火箭TNT
         - DIRECT
         
-    - name: 分类低费率自动选择
-      type: url-test
-      url: 'http://www.gstatic.com/generate_204'
-      interval: 300
-      proxies:
-        - 'SG头等x1.5A♛'
-        - 'SG头等x1.5B♛'
-        - 'TW商务x1.5A♚'
-        - 'TW商务x1.5B♚'
-        - 'TW商务x1.5C♚'
-        - 'HK经济x1.5A⭑'
-        - 'HK经济x1.5B⭑'
-        - 'HK经济x1.5C⭑'
-        - 'HK经济x1.5D⭑'
-        - 'HK经济x1.5E⭑'
-        - 'HK经济x1.5F⭑'
-        - 'TW经济x1.5A⭑'
-        - 'TW经济x1.5B⭑'
-        - 'TW经济x1.5C⭑'
-        - 'TW经济x1.5D⭑'
-        - 'SG经济x1.5A⭑'
-        - 'SG经济x1.5B⭑'
-        - 'SG经济x1.5C⭑'
-        - 'SG经济x1.5D⭑'
-        - JP内测线路
         
-    - name: 分类低gpt
+    - name: GPT低
       type: url-test
       url: 'https://chatgpt.com'
       interval: 300
       proxies:
-        - 'TW头等x1.8A♛'
-        - 'TW头等x1.8B♛'
-        - 'JP头等x1.8A♛'
-        - 'JP头等x1.8B♛'
-        - 'US头等x1.8A♛'
-        - 'US头等x1.8B♛'
-        - 'SG头等x1.5A♛'
-        - 'SG头等x1.5B♛'
-        - 'TW商务x1.5A♚'
-        - 'TW商务x1.5B♚'
-        - 'TW商务x1.5C♚'
-        - 'US商务x1.8A♚'
-        - 'US商务x1.8B♚'
-        - 'TW经济x1.5A⭑'
-        - 'TW经济x1.5B⭑'
-        - 'TW经济x1.5C⭑'
-        - 'TW经济x1.5D⭑'
-        - 'JP经济x1.7A⭑'
-        - 'JP经济x1.7B⭑'
-        - 'JP经济x1.7C⭑'
-        - 'JP经济x1.7D⭑'
-        - 'US经济x1.8A⭑'
-        - 'US经济x1.8B⭑'
-        - 'US经济x1.8C⭑'
-        - 'US经济x1.8D⭑'
-        - 'SG经济x1.5A⭑'
-        - 'SG经济x1.5B⭑'
-        - 'SG经济x1.5C⭑'
-        - 'SG经济x1.5D⭑'
-        - 'KR商务x2A♚'
-        - 'KR商务x2B♚'
-        - JP内测线路
+        - 香港-低
+        - 台湾-低
+        - 新加坡-低
         
-    - name: 分类全节点自动选择
+    - name: GPT高
+      type: url-test
+      url: 'https://chatgpt.com'
+      interval: 300
+      proxies:
+        - 香港-高
+        - 台湾-高
+
+        - 日本-高
+        - 美国-高
+        - 韩国-高
+        
+    - name: GPT全
+      type: url-test
+      url: 'https://chatgpt.com'
+      interval: 300
+      proxies:
+        - 香港-全
+        - 台湾-全
+        - 新加坡-全
+        - 日本-全
+        - 美国-全
+        - 韩国-全
+        
+    - name: 全
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - 'HK头等x1.8A♛'
-        - 'HK头等x1.8B♛'
-        - 'HK头等x1.8C♛'
-        - 'HK头等x1.8D♛'
-        - 'TW头等x1.8A♛'
-        - 'TW头等x1.8B♛'
-        - 'JP头等x1.8A♛'
-        - 'JP头等x1.8B♛'
-        - 'US头等x1.8A♛'
-        - 'US头等x1.8B♛'
-        - 'SG头等x1.5A♛'
-        - 'SG头等x1.5B♛'
-        - 'HK商务x1.7A♚'
-        - 'HK商务x1.7B♚'
-        - 'HK商务x1.7C♚'
-        - 'HK商务x1.7D♚'
-        - 'TW商务x1.5A♚'
-        - 'TW商务x1.5B♚'
-        - 'TW商务x1.5C♚'
-        - 'US商务x1.8A♚'
-        - 'US商务x1.8B♚'
-        - 'HK经济x1.5A⭑'
-        - 'HK经济x1.5B⭑'
-        - 'HK经济x1.5C⭑'
-        - 'HK经济x1.5D⭑'
-        - 'HK经济x1.5E⭑'
-        - 'HK经济x1.5F⭑'
-        - 'TW经济x1.5A⭑'
-        - 'TW经济x1.5B⭑'
-        - 'TW经济x1.5C⭑'
-        - 'TW经济x1.5D⭑'
-        - 'JP经济x1.7A⭑'
-        - 'JP经济x1.7B⭑'
-        - 'JP经济x1.7C⭑'
-        - 'JP经济x1.7D⭑'
-        - 'US经济x1.8A⭑'
-        - 'US经济x1.8B⭑'
-        - 'US经济x1.8C⭑'
-        - 'US经济x1.8D⭑'
-        - 'SG经济x1.5A⭑'
-        - 'SG经济x1.5B⭑'
-        - 'SG经济x1.5C⭑'
-        - 'SG经济x1.5D⭑'
-        - 'KR商务x2A♚'
-        - 'KR商务x2B♚'
-        - JP内测线路
+        - 香港-全
+        - 台湾-全
+        - 新加坡-全
+        - 日本-全
+        - 美国-全
+        - 韩国-全
         
-    - name: 分类HK地区
+    - name: 低
+      type: url-test
+      url: 'https://chatgpt.com'
+      interval: 300
+      proxies:
+        - 香港-低
+        - 台湾-低
+        - 新加坡-低
+        
+    - name: 高
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 香港-高
+        - 台湾-高
+
+        - 日本-高
+        - 美国-高
+        - 韩国-高
+        
+    - name: 香港-全
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 香港-低
+        - 香港-高
+
+    - name: 香港-低
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
@@ -313,6 +213,12 @@ proxy-groups:
         - HK经济x1.5D⭑
         - HK经济x1.5E⭑
         - HK经济x1.5F⭑
+
+    - name: 香港-高
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
         - HK商务x1.7A♚
         - HK商务x1.7B♚
         - HK商务x1.7C♚
@@ -322,7 +228,14 @@ proxy-groups:
         - HK头等x1.8C♛
         - HK头等x1.8D♛
 
-    - name: 分类JP地区
+    - name: 日本-全
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 日本-高
+        
+    - name: 日本-高
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
@@ -335,7 +248,14 @@ proxy-groups:
         - JP头等x1.8B♛
         - JP内测线路
         
-    - name: 分类KR地区
+    - name: 韩国-全
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 韩国-高
+
+    - name: 韩国-高
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
@@ -343,7 +263,15 @@ proxy-groups:
         - KR商务x2A♚
         - KR商务x2B♚
 
-    - name: 分类SG地区
+
+    - name: 新加坡-全
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 新加坡-低
+        
+    - name: 新加坡-低
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
@@ -355,7 +283,15 @@ proxy-groups:
         - SG头等x1.5A♛
         - SG头等x1.5B♛
 
-    - name: 分类TW地区
+    - name: 台湾-全
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 台湾-低
+        - 台湾-高
+        
+    - name: 台湾-低
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
@@ -367,10 +303,25 @@ proxy-groups:
         - TW商务x1.5A♚
         - TW商务x1.5B♚
         - TW商务x1.5C♚
+      
+    - name: 台湾-高
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
         - TW头等x1.8A♛
         - TW头等x1.8B♛
 
-    - name: 分类US地区
+
+    - name:美国-全
+      type: url-test
+      url: 'http://www.gstatic.com/generate_204'
+      interval: 300
+      proxies:
+        - 美国-高
+
+        
+    - name: 美国-高
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
