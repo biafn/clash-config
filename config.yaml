@@ -132,7 +132,6 @@ proxy-groups:
       url: 'https://chatgpt.com'
       interval: 300
       proxies:
-        - 香港-低
         - 台湾-低
         - 新加坡-低
         
@@ -141,9 +140,7 @@ proxy-groups:
       url: 'https://chatgpt.com'
       interval: 300
       proxies:
-        - 香港-高
         - 台湾-高
-
         - 日本-高
         - 美国-高
         - 韩国-高
