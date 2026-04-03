@@ -313,7 +313,7 @@ proxy-groups:
         - TW头等x1.8B♛
 
 
-    - name:美国-全
+    - name: 美国-全
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
