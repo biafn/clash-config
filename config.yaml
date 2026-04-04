@@ -391,23 +391,6 @@ rule-providers:
         
 rules:
     - RULE-SET,direct,DIRECT
-
-  # 微软直接绕过Clash
-    - DOMAIN-SUFFIX,microsoft.com,PASS
-    - DOMAIN-SUFFIX,microsoftonline.com,PASS
-    - DOMAIN-SUFFIX,live.com,PASS
-    - DOMAIN-SUFFIX,msauth.net,PASS
-    - DOMAIN-SUFFIX,msftconnecttest.com,PASS
-    - DOMAIN-SUFFIX,msftncsi.com,PASS
-    # 更新 / 商店
-    - DOMAIN-SUFFIX,windowsupdate.com,PASS
-    - DOMAIN-SUFFIX,delivery.mp.microsoft.com,PASS
-    # 兜底（很关键）
-    - IP-CIDR,13.107.0.0/16,PASS,no-resolve
-    - IP-CIDR,20.0.0.0/8,PASS,no-resolve
-    - IP-CIDR,40.0.0.0/8,PASS,no-resolve
-  # 微软直接绕过Clash
-  
     - RULE-SET,ruleset_1,火箭TNT
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
@@ -434,6 +417,8 @@ rules:
     - DOMAIN-SUFFIX,login.steampowered.com,Steam
 # 自定义
 
+
+#
     - 'DOMAIN-SUFFIX,live.com,火箭TNT'
     - 'DOMAIN-SUFFIX,live.net,火箭TNT'
 
