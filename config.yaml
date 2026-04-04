@@ -155,7 +155,6 @@ proxy-groups:
         - 台湾-高
         - 日本-高
         - 美国-高
-
         - 新加坡-高
         
     - name: GPT全
@@ -163,7 +162,6 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - 香港-全
         - 台湾-全
         - 新加坡-全
         - 日本-全
