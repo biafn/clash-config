@@ -19,6 +19,8 @@ dns:
     fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4, 0.0.0.0/32], domain: [+.google.com, +.facebook.com, +.youtube.com] }
 proxies:
     #2026-04-04
+    - { name: HK🇭🇰头等舱A【媒体】x2, type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰头等舱B【媒体】x2, type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰头等舱C【工作】x2, type: vmess, server: hk.keducafe.world, port: 56321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰头等舱D【工作】x2, type: vmess, server: hk.keducafe.world, port: 33142, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }    
     - { name: TW⮂头等舱A【AI】x1.8, type: vmess, server: tw.notcoffee.world, port: 33121, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
@@ -27,47 +29,51 @@ proxies:
     - { name: JP头等x1.8B♛, type: vmess, server: toudc.jpluodi.xyz, port: 32326, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: JP🇯🇵头等舱A【AI】x2, type: vmess, server: vs.vichyshampoo.world, port: 32325, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: JP🇯🇵头等舱B【AI】x2, type: vmess, server: vs.vichyshampoo.world, port: 32326, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US头等x1.8A♛, type: vmess, server: jj.tianshua.world, port: 41218, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US头等x1.8B♛, type: vmess, server: jj.tianshua.world, port: 41219, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸头等舱A【AI】x2, type: vmess, server: jj.tianshua.world, port: 41218, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸头等舱B【AI】x2, type: vmess, server: jj.tianshua.world, port: 41219, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: SG头等x1.5A♛, type: vmess, server: deng1.sgluodi.xyz, port: 31135, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: SG头等x1.5B♛, type: vmess, server: deng1.sgluodi.xyz, port: 31136, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: SG🇸🇬头等舱A【工作】x2, type: vmess, server: pass.yuantian.world, port: 31135, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: SG🇸🇬头等舱B【工作】x2, type: vmess, server: pass.yuantian.world, port: 31136, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    
-    - { name: HK商务x1.7A♚, type: vmess, server: hj2hkt.top, port: 55215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK商务x1.7B♚, type: vmess, server: hj2hkt.top, port: 55216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK商务x1.7C♚, type: vmess, server: hj2hkt.top, port: 55217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK商务x1.7D♚, type: vmess, server: hj2hkt.top, port: 55218, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW商务x1.5A♚, type: vmess, server: sw.hj888tw.top, port: 53322, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW商务x1.5B♚, type: vmess, server: tw.hj888tw.top, port: 53344, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW商务x1.5C♚, type: vmess, server: tw.hj888tw.top, port: 53355, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US商务x1.8A♚, type: vmess, server: hjus.tiansuo.world, port: 41216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US商务x1.8B♚, type: vmess, server: hjus.tiansuo.world, port: 41217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰商务舱A【媒体】x1.7, type: vmess, server: hj2hkt.top, port: 55215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰商务舱B【媒体】x1.7, type: vmess, server: hj2hkt.top, port: 55216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰商务舱C【媒体】x1.7, type: vmess, server: hj2hkt.top, port: 55217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰商务舱D【媒体】x1.7, type: vmess, server: hj2hkt.top, port: 55218, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂商务舱A【AI】x1.5, type: vmess, server: sw.hj888tw.top, port: 53322, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂商务舱B【AI】x1.5, type: vmess, server: sw.hj888tw.top, port: 53344, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂商务舱C【工作】x1.5, type: vmess, server: sw.hj888tw.top, port: 53355, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸商务舱A【AI】x1.8, type: vmess, server: hjus.tiansuo.world, port: 41216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸商务舱B【AI】x1.8, type: vmess, server: hjus.tiansuo.world, port: 41217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: JP内测线路, type: vmess, server: vip.hjtnt.co, port: 44123, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true, tls: true }
-    - { name: HK经济x1.5A⭑, type: vmess, server: www.hj444hk.top, port: 52212, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK经济x1.5B⭑, type: vmess, server: www.hj444hk.top, port: 52213, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK经济x1.5C⭑, type: vmess, server: www.hj444hk.top, port: 52214, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK经济x1.5D⭑, type: vmess, server: www.hj3hk.top, port: 52215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK经济x1.5E⭑, type: vmess, server: www.hj3hk.top, port: 52216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: HK经济x1.5F⭑, type: vmess, server: www.hj3hk.top, port: 52217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW经济x1.5A⭑, type: vmess, server: www.hj666tw.top, port: 36612, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW经济x1.5B⭑, type: vmess, server: www.hj666tw.top, port: 36613, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW经济x1.5C⭑, type: vmess, server: www.hj666tw.top, port: 36614, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: TW经济x1.5D⭑, type: vmess, server: www.hj666tw.top, port: 36615, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: JP经济x1.7A⭑, type: vmess, server: rb.xinchenone.world, port: 32321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: JP经济x1.7B⭑, type: vmess, server: rb.xinchenone.world, port: 32322, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: JP经济x1.7C⭑, type: vmess, server: rb.xinchenone.world, port: 32323, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: JP经济x1.7D⭑, type: vmess, server: rb.xinchenone.world, port: 32324, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US经济x1.8A⭑, type: vmess, server: us.yimiaoshe.world, port: 41212, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US经济x1.8B⭑, type: vmess, server: us.yimiaoshe.world, port: 41213, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US经济x1.8C⭑, type: vmess, server: us.yimiaoshe.world, port: 41214, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: US经济x1.8D⭑, type: vmess, server: us.yimiaoshe.world, port: 41215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: SG经济x1.5A⭑, type: vmess, server: sg.gigitea.world, port: 31131, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: SG经济x1.5B⭑, type: vmess, server: sg.gigitea.world, port: 31132, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: SG经济x1.5C⭑, type: vmess, server: sg.gigitea.world, port: 31133, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: SG经济x1.5D⭑, type: vmess, server: sg.gigitea.world, port: 31134, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: KR商务x2A♚, type: vmess, server: www.hj200kr.xyz, port: 44123, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-    - { name: KR商务x2B♚, type: vmess, server: www.hj200kr.xyz, port: 44124, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰经济舱A【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52212, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰经济舱B【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52213, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰经济舱C【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52214, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰经济舱D【日常】x1.5, type: vmess, server: www.hj3hk.top, port: 52215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰经济舱E【日常】x1.5, type: vmess, server: www.hj3hk.top, port: 52216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: HK🇭🇰经济舱F【日常】x1.5, type: vmess, server: www.hj3hk.top, port: 52217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂经济舱A【AI】x1.5, type: vmess, server: www.hj666tw.top, port: 36612, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂经济舱B【AI】x1.5, type: vmess, server: www.hj666tw.top, port: 36613, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂经济舱C【工作】x1.5, type: vmess, server: www.hj666tw.top, port: 36614, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: TW⮂经济舱D【工作】x1.5, type: vmess, server: www.hj666tw.top, port: 36615, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+
+    
+    - { name: JP🇯🇵经济舱A【媒体】x1.7, type: vmess, server: rb.xinchenone.world, port: 32321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: JP🇯🇵经济舱B【媒体】x1.7, type: vmess, server: rb.xinchenone.world, port: 32322, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: JP🇯🇵经济舱C【工作】x1.7, type: vmess, server: rb.xinchenone.world, port: 32323, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: JP🇯🇵经济舱D【工作】x1.7, type: vmess, server: rb.xinchenone.world, port: 32324, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    
+    - { name: US🇺🇸经济舱A【AI】x1.5, type: vmess, server: us.yimiaoshe.world, port: 41212, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸经济舱B【AI】x1.5, type: vmess, server: us.yimiaoshe.world, port: 41213, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸经济舱C【工作】x1.5, type: vmess, server: us.yimiaoshe.world, port: 41214, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: US🇺🇸经济舱D【工作】x1.5, type: vmess, server: us.yimiaoshe.world, port: 41215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    
+
+    - { name: SG🇸🇬经济舱A【日常】x1.5, type: vmess, server: www.gigitea.world, port: 31131, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: SG🇸🇬经济舱B【日常】x1.5, type: vmess, server: www.gigitea.world, port: 31132, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: SG🇸🇬经济舱C【日常】x1.5, type: vmess, server: www.gigitea.world, port: 31133, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    - { name: SG🇸🇬经济舱D【日常】x1.5, type: vmess, server: www.gigitea.world, port: 31134, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    
+    
     
 proxy-groups:
     - name: Others
@@ -98,7 +104,7 @@ proxy-groups:
         
         - 美国-高
         
-        - 韩国-高
+
         
         - DIRECT
         
@@ -148,7 +154,7 @@ proxy-groups:
         - 台湾-高
         - 日本-高
         - 美国-高
-        - 韩国-高
+
         - 新加坡-高
         
     - name: GPT全
@@ -161,7 +167,7 @@ proxy-groups:
         - 新加坡-全
         - 日本-全
         - 美国-全
-        - 韩国-全
+
         
     - name: 全
       type: url-test
@@ -173,7 +179,7 @@ proxy-groups:
         - 新加坡-全
         - 日本-全
         - 美国-全
-        - 韩国-全
+
         
     - name: 低
       type: url-test
@@ -194,7 +200,7 @@ proxy-groups:
         - 新加坡-高
         - 日本-高
         - 美国-高
-        - 韩国-高
+
   
 
         
@@ -211,22 +217,25 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - HK经济x1.5A⭑
-        - HK经济x1.5B⭑
-        - HK经济x1.5C⭑
-        - HK经济x1.5D⭑
-        - HK经济x1.5E⭑
-        - HK经济x1.5F⭑
+        - HK🇭🇰经济舱A【媒体】x1.5
+        - HK🇭🇰经济舱B【媒体】x1.5
+        - HK🇭🇰经济舱C【媒体】x1.5
+        - HK🇭🇰经济舱D【日常】x1.5
+        - HK🇭🇰经济舱E【日常】x1.5
+        - HK🇭🇰经济舱F【日常】x1.5
 
     - name: 香港-高
       type: url-test
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - HK商务x1.7A♚
-        - HK商务x1.7B♚
-        - HK商务x1.7C♚
-        - HK商务x1.7D♚
+        - HK🇭🇰商务舱A【媒体】x1.7
+        - HK🇭🇰商务舱B【媒体】x1.7
+        - HK🇭🇰商务舱C【媒体】x1.7
+        - HK🇭🇰商务舱D【媒体】x1.7
+        
+        - HK🇭🇰头等舱A【媒体】x2
+        - HK🇭🇰头等舱B【媒体】x2
         - HK🇭🇰头等舱C【工作】x2
         - HK🇭🇰头等舱D【工作】x2
 
@@ -242,30 +251,17 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - JP经济x1.7A⭑
-        - JP经济x1.7B⭑
-        - JP经济x1.7C⭑
-        - JP经济x1.7D⭑
+        - JP🇯🇵经济舱A【媒体】
+        - JP🇯🇵经济舱B【媒体】x1.7
+        - JP🇯🇵经济舱C【工作】x1.7
+        - JP🇯🇵经济舱D【工作】x1.7
         - JP头等x1.8A♛
         - JP头等x1.8B♛
         - JP内测线路
         - JP🇯🇵头等舱A【AI】x2
         - JP🇯🇵头等舱B【AI】x2
         
-    - name: 韩国-全
-      type: url-test
-      url: 'http://www.gstatic.com/generate_204'
-      interval: 300
-      proxies:
-        - 韩国-高
 
-    - name: 韩国-高
-      type: url-test
-      url: 'http://www.gstatic.com/generate_204'
-      interval: 300
-      proxies:
-        - KR商务x2A♚
-        - KR商务x2B♚
 
 
     - name: 新加坡-全
@@ -282,12 +278,11 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - SG经济x1.5A⭑
-        - SG经济x1.5B⭑
-        - SG经济x1.5C⭑
-        - SG经济x1.5D⭑
-        - SG头等x1.5A♛
-        - SG头等x1.5B♛⭑
+        - SG🇸🇬经济舱A【日常】x1.5
+        - SG🇸🇬经济舱B【日常】x1.5
+        - SG🇸🇬经济舱C【日常】x1.5
+        - SG🇸🇬经济舱D【日常】x1.5
+
 
     
     - name: 新加坡-高
@@ -295,6 +290,8 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
+        - SG头等x1.5A♛
+        - SG头等x1.5B♛
         - SG🇸🇬头等舱A【工作】x2
         - SG🇸🇬头等舱B【工作】x2
 
@@ -312,13 +309,14 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - TW经济x1.5A⭑
-        - TW经济x1.5B⭑
-        - TW经济x1.5C⭑
-        - TW经济x1.5D⭑
-        - TW商务x1.5A♚
-        - TW商务x1.5B♚
-        - TW商务x1.5C♚
+        - TW⮂经济舱A【AI】x1.5
+        - TW⮂经济舱B【AI】x1.5
+        - TW⮂经济舱C【工作】x1.5
+        - TW⮂经济舱D【工作】x1.5
+        
+        - TW⮂商务舱A【AI】x1.5
+        - TW⮂商务舱B【AI】x1.5
+        - TW⮂商务舱C【工作】x1.5
       
     - name: 台湾-高
       type: url-test
@@ -342,15 +340,14 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - US经济x1.8A⭑
-        - US经济x1.8B⭑
-        - US经济x1.8C⭑
-        - US经济x1.8D⭑
-        - US商务x1.8A♚
-        - US商务x1.8B♚
-        - US头等x1.8A♛
-        - US头等x1.8B♛
-    
+        - US🇺🇸经济舱A【AI】x1.5
+        - US🇺🇸经济舱B【AI】x1.5
+        - US🇺🇸经济舱C【工作】x1.5
+        - US🇺🇸经济舱D【工作】x1.5
+        - US🇺🇸商务舱A【AI】x1.8
+        - US🇺🇸商务舱B【AI】x1.8
+        - US🇺🇸头等舱A【AI】x2
+        - US🇺🇸头等舱B【AI】x2
 
 
 rule-providers:
