@@ -1,4 +1,5 @@
-    - 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
+payload:
+	- 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
     - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
     - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
