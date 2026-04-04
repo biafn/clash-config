@@ -19,7 +19,6 @@ dns:
     fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4, 0.0.0.0/32], domain: [+.google.com, +.facebook.com, +.youtube.com] }
 proxies:
     #2026-04-04
-    - { name: '剩余流量：2138.13 GB', type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     
     - { name: HK🇭🇰头等舱A【媒体】x2, type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰头等舱B【媒体】x2, type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
@@ -81,7 +80,6 @@ proxy-groups:
     - name: Others
       type: select
       proxies:
-        - '剩余流量：2138.13 GB'
         - 火箭TNT
         - DIRECT 
         
