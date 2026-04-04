@@ -434,6 +434,9 @@ rules:
     - DOMAIN-SUFFIX,login.steampowered.com,Steam
 # 自定义
 
+    - 'DOMAIN-SUFFIX,live.com,火箭TNT'
+    - 'DOMAIN-SUFFIX,live.net,火箭TNT'
+
     - 'IP-CIDR,1.1.1.1/32,火箭TNT,no-resolve'
     - 'IP-CIDR,8.8.8.8/32,火箭TNT,no-resolve'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,火箭TNT'
