@@ -250,7 +250,7 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
-        - JP🇯🇵经济舱A【媒体】
+        - JP🇯🇵经济舱A【媒体】x1.7
         - JP🇯🇵经济舱B【媒体】x1.7
         - JP🇯🇵经济舱C【工作】x1.7
         - JP🇯🇵经济舱D【工作】x1.7
