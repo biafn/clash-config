@@ -390,7 +390,7 @@ rule-providers:
     interval: 86400
         
 rules:
-
+    - RULE-SET,direct,DIRECT
 
   # 微软直接绕过Clash
     - DOMAIN-SUFFIX,microsoft.com,PASS
@@ -412,7 +412,7 @@ rules:
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
     - RULE-SET,DOMAIN_Proxy,火箭TNT
-    - RULE-SET,direct,DIRECT
+    
 # 自定义
     #ChatGPT
     - DOMAIN-SUFFIX,openai.com,ChatGPT
