@@ -23,8 +23,6 @@ proxies:
     - { name: HK头等x1.8B♛, type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK头等x1.8C♛, type: vmess, server: xg.litepath.world, port: 25514, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK头等x1.8D♛, type: vmess, server: xg.litepath.world, port: 25515, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-
-    
     - { name: HK🇭🇰头等舱C【工作】x2, type: vmess, server: hk.keducafe.world, port: 56321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰头等舱D【工作】x2, type: vmess, server: hk.keducafe.world, port: 33142, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }    
     - { name: TW⮂头等舱A【AI】x1.8, type: vmess, server: tw.notcoffee.world, port: 33121, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
@@ -233,10 +231,10 @@ proxy-groups:
         - HK商务x1.7B♚
         - HK商务x1.7C♚
         - HK商务x1.7D♚
-        #- HK头等x1.8A♛
-        #- HK头等x1.8B♛
-        #- HK头等x1.8C♛
-        #- HK头等x1.8D♛
+        - HK头等x1.8A♛
+        - HK头等x1.8B♛
+        - HK头等x1.8C♛
+        - HK头等x1.8D♛
         - HK🇭🇰头等舱C【工作】x2
         - HK🇭🇰头等舱D【工作】x2
 
