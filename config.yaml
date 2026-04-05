@@ -31,7 +31,9 @@ dns:
 
   fallback-filter:
     geoip: false
-
+tun:
+  enable: true
+  stack: system
     
 proxies:
     #2026-04-04
