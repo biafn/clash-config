@@ -77,6 +77,14 @@ proxies:
     
     
 proxy-groups:
+    - name: 测试
+      type: select
+      proxies:
+        - 谷歌
+        - 火箭TNT
+        - DIRECT 
+
+
     - name: Others
       type: select
       proxies:
