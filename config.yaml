@@ -433,7 +433,7 @@ rules:
     - DOMAIN-SUFFIX,dnsleaktest.com,测试
     - DOMAIN-SUFFIX,ipleak.net,测试
     - DOMAIN-SUFFIX,ip.sb,测试
-    - DOMAIN-KEYWORD,ipinfo,测试
+    - DOMAIN-SUFFIX,ip.me,测试
  #测试/
     
     - DOMAIN-KEYWORD,github,Github
