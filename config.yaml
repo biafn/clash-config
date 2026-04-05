@@ -6,17 +6,33 @@ log-level: info
 external-controller: '127.0.0.1:9090'
 
 dns:
-    enable: true
-    ipv6: false
-    default-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
-    respect-rules: true
-    proxy-server-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
-    nameserver: ['https://lion.madns-apple.site:2443/dns-query', 'https://eagle.madns-orange.site:2443/dns-query', 'https://panda.madns-banana.site:2443/dns-query', 'https://shark.madns-grape.site:2443/dns-query', 'https://zebra.madns-mango.site:2443/dns-query', 'https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://lion.madns-apple.site:2443/dns-query', 'https://eagle.madns-orange.site:2443/dns-query', 'https://panda.madns-banana.site:2443/dns-query', 'https://shark.madns-grape.site:2443/dns-query', 'https://zebra.madns-mango.site:2443/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
-    fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4, 0.0.0.0/32], domain: [+.google.com, +.facebook.com, +.youtube.com] }
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  respect-rules: true
+
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+
+  proxy-server-nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+
+  fallback-filter:
+    geoip: false
+
+    
 proxies:
     #2026-04-04
     
