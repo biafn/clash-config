@@ -1,5 +1,16 @@
 payload:
 #自定义
+#谷歌
+    - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
+    - DOMAIN-SUFFIX,services.googleapis.cn,谷歌
+    - DOMAIN-KEYWORD,google,谷歌
+    - DOMAIN-SUFFIX,gstatic.com,谷歌
+    - DOMAIN-SUFFIX,gmodules.com,谷歌
+    - DOMAIN-SUFFIX,golang.org,谷歌
+    - DOMAIN-SUFFIX,goo.gl,谷歌
+#谷歌ed
+
+    
     - DOMAIN,service.iwara.shop
     - DOMAIN,sjscn.cc
     - DOMAIN,tangdi.artstation.com
