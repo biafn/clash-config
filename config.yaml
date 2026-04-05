@@ -45,6 +45,7 @@ proxies:
     - { name: TW⮂商务舱C【工作】x1.5, type: vmess, server: sw.hj888tw.top, port: 53355, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: US🇺🇸商务舱A【AI】x1.8, type: vmess, server: hjus.tiansuo.world, port: 41216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: US🇺🇸商务舱B【AI】x1.8, type: vmess, server: hjus.tiansuo.world, port: 41217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    #Hello 154.16.27.123 from San Jose, United States
     - { name: JP内测线路, type: vmess, server: vip.hjtnt.co, port: 44123, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true, tls: true }
     - { name: HK🇭🇰经济舱A【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52212, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰经济舱B【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52213, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
