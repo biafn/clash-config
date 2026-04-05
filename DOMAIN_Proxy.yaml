@@ -10,7 +10,12 @@ payload:
     - DOMAIN-SUFFIX,goo.gl,谷歌
 #谷歌ed
 
-    
+#测试
+    - DOMAIN-SUFFIX,dnsleaktest.com,测试
+    - DOMAIN-SUFFIX,ipleak.net,测试
+    - DOMAIN-SUFFIX,ip.sb,测试
+    - DOMAIN-KEYWORD,ipinfo,测试
+#测试ed
     - DOMAIN,service.iwara.shop
     - DOMAIN,sjscn.cc
     - DOMAIN,tangdi.artstation.com
