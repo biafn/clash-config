@@ -16,5 +16,36 @@ payload:
     - DOMAIN-SUFFIX,ip.sb,测试
     - DOMAIN-KEYWORD,ipinfo,测试
 #测试ed
+    - DOMAIN,service.iwara.shop
+    - DOMAIN,sjscn.cc
+    - DOMAIN,tangdi.artstation.com
+    - DOMAIN,www.artstation.com
+    - DOMAIN,cdn.artstation.com
+    - DOMAIN,cdn.board.zash.run.place
+    - DOMAIN,onedrive.live.com
 #自定义
-
+    - DOMAIN,vip.2020card.com
+    - DOMAIN,steamcommunity.com
+    - DOMAIN,hsreplay.net
+    - DOMAIN,level-plus.net
+    - DOMAIN,clm39.sbs
+    - DOMAIN,xslist.org
+    - DOMAIN,jable.tv
+    - DOMAIN,fundingchoicesmessages.google.com
+    - DOMAIN,best.uopfduro.net
+    - DOMAIN,best.vagmjuv.org
+    - DOMAIN,cps-check.com
+    - DOMAIN,linear-abematv.akamaized.net
+    - DOMAIN,google.com
+    - DOMAIN,cdn-images.mailchimp.com
+    - DOMAIN,id.heroku.com
+    - DOMAIN,abc.com
+    - DOMAIN,abc.go.com
+    - DOMAIN,abc.net.au
+    - DOMAIN,wego.here.com
+    - DOMAIN,beta.itunes.apple.com
+    - DOMAIN,books.itunes.apple.com
+    - DOMAIN,hls.itunes.apple.com
+    - DOMAIN,itunes.apple.com
+    - DOMAIN,api-glb-sea.smoot.apple.com
+    - DOMAIN,lookup-api.apple.com
