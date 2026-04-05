@@ -434,6 +434,7 @@ rules:
     - DOMAIN-SUFFIX,ipleak.net,测试
     - DOMAIN-SUFFIX,ip.sb,测试
     - DOMAIN-SUFFIX,ip.me,测试
+    - DOMAIN-SUFFIX,browserleaks.com,测试
  #测试/
     
     - DOMAIN-KEYWORD,github,Github
