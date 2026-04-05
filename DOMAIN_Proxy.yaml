@@ -1,29 +1,7 @@
 payload:
 #自定义
-#谷歌
-    - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
-    - DOMAIN-SUFFIX,services.googleapis.cn,谷歌
-    - DOMAIN-KEYWORD,google,谷歌
-    - DOMAIN-SUFFIX,gstatic.com,谷歌
-    - DOMAIN-SUFFIX,gmodules.com,谷歌
-    - DOMAIN-SUFFIX,golang.org,谷歌
-    - DOMAIN-SUFFIX,goo.gl,谷歌
-#谷歌ed
 
-#测试
-    - DOMAIN-SUFFIX,dnsleaktest.com,测试
-    - DOMAIN-SUFFIX,ipleak.net,测试
-    - DOMAIN-SUFFIX,ip.sb,测试
-    - DOMAIN-KEYWORD,ipinfo,测试
-#测试ed
-    - DOMAIN,service.iwara.shop
-    - DOMAIN,sjscn.cc
-    - DOMAIN,tangdi.artstation.com
-    - DOMAIN,www.artstation.com
-    - DOMAIN,cdn.artstation.com
-    - DOMAIN,cdn.board.zash.run.place
-    - DOMAIN,onedrive.live.com
-#自定义
+#自定义/
     - DOMAIN,vip.2020card.com
     - DOMAIN,steamcommunity.com
     - DOMAIN,hsreplay.net
