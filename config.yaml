@@ -420,10 +420,10 @@ rules:
 
     - 'IP-CIDR,1.1.1.1/32,火箭TNT,no-resolve'
     - 'IP-CIDR,8.8.8.8/32,火箭TNT,no-resolve'
-    - 'DOMAIN-SUFFIX,services.googleapis.cn,火箭TNT'
+    
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,火箭TNT'
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
-    - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
+    
     - 'DOMAIN,developer.apple.com,火箭TNT'
     - 'DOMAIN-SUFFIX,digicert.com,火箭TNT'
     - 'DOMAIN,ocsp.apple.com,火箭TNT'
@@ -529,7 +529,7 @@ rules:
     - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
     - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
     - 'DOMAIN-KEYWORD,amazon,火箭TNT'
-    - 'DOMAIN-KEYWORD,google,火箭TNT'
+    
     - 'DOMAIN-KEYWORD,gmail,火箭TNT'
     - 'DOMAIN-KEYWORD,youtube,火箭TNT'
     - 'DOMAIN-KEYWORD,facebook,火箭TNT'
@@ -663,15 +663,12 @@ rules:
     - 'DOMAIN-SUFFIX,git.io,火箭TNT'
 
     - 'DOMAIN-SUFFIX,globalsign.com,火箭TNT'
-    - 'DOMAIN-SUFFIX,gmodules.com,火箭TNT'
     - 'DOMAIN-SUFFIX,godaddy.com,火箭TNT'
-    - 'DOMAIN-SUFFIX,golang.org,火箭TNT'
     - 'DOMAIN-SUFFIX,gongm.in,火箭TNT'
-    - 'DOMAIN-SUFFIX,goo.gl,火箭TNT'
     - 'DOMAIN-SUFFIX,goodreaders.com,火箭TNT'
     - 'DOMAIN-SUFFIX,goodreads.com,火箭TNT'
     - 'DOMAIN-SUFFIX,gravatar.com,火箭TNT'
-    - 'DOMAIN-SUFFIX,gstatic.com,火箭TNT'
+    
     - 'DOMAIN-SUFFIX,gvt0.com,火箭TNT'
     - 'DOMAIN-SUFFIX,hockeyapp.net,火箭TNT'
     - 'DOMAIN-SUFFIX,hotmail.com,火箭TNT'
