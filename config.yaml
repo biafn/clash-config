@@ -10,23 +10,25 @@ dns:
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  respect-rules: true
-
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-
-  nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+  use-hosts: true
+  # 仅保留最可靠的国内 DNS，用于解析上游 DoH 的域名
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  
+  # 核心解析：精简为 2-3 个高质量 DoH
+  nameserver: 
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
     
-tun:
-  enable: true
-  stack: gvisor
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - any:53
+  # fallback 仅在 nameserver 解析结果不在中国时触发
+  fallback: 
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+    
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr: [240.0.0.0/4, 0.0.0.0/32]
+    
     
 proxies:
     #2026-04-04
