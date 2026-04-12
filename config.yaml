@@ -11,34 +11,17 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   respect-rules: true
-  use-hosts: true
 
-  # 本地直连解析（防启动问题）
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
 
-  # 🔥 核心：DNS分流策略（完整版）
-  nameserver-policy:
-    # 国内域名 → 国内DNS（最快）
-    "geosite:cn":
-      - 223.5.5.5
-      - 119.29.29.29
-
-    # 非中国域名 → 国外DNS（干净）
-    "geosite:geolocation-!cn":
-      - https://1.1.1.1/dns-query
-      - https://8.8.8.8/dns-query
-
-  # 默认DNS（兜底用）
   nameserver:
-    - https://1.1.1.1/dns-query
-    - https://8.8.8.8/dns-query
-
-  # fallback（防解析异常）
-  fallback:
     - 223.5.5.5
     - 119.29.29.29
+
+  fallback:
+    - https://1.1.1.1/dns-query
 
   fallback-filter:
     geoip: true
@@ -47,6 +30,10 @@ dns:
 tun:
   enable: true
   stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
     
 proxies:
     #2026-04-04
