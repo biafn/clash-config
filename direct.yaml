@@ -31,7 +31,7 @@ payload:
     - 'DOMAIN-SUFFIX,ifengimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,ipip.net,DIRECT'
     - 'DOMAIN-SUFFIX,iqiyi.com,DIRECT'
-    - 'DOMAIN-SUFFIX,jd.com,DIRECT'
+    - 'DOMAIN,jd.com,DIRECT'
     - 'DOMAIN-SUFFIX,jianshu.com,DIRECT'
     - 'DOMAIN-SUFFIX,knewone.com,DIRECT'
     - 'DOMAIN-SUFFIX,le.com,DIRECT'
