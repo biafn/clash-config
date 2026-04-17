@@ -131,7 +131,7 @@ proxy-groups:
         
     - name: ChatGPT
       type: select
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       proxies:
         - GPT低
@@ -163,7 +163,7 @@ proxy-groups:
     - name: GPT低
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -173,7 +173,7 @@ proxy-groups:
     - name: GPT高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -185,7 +185,7 @@ proxy-groups:
     - name: GPT全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -198,7 +198,7 @@ proxy-groups:
     - name: 全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -212,7 +212,7 @@ proxy-groups:
     - name: 低
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -225,7 +225,7 @@ proxy-groups:
     - name: 高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -241,7 +241,7 @@ proxy-groups:
     - name: 香港-全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -251,7 +251,7 @@ proxy-groups:
     - name: 香港-低
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -265,7 +265,7 @@ proxy-groups:
     - name: 香港-高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -282,7 +282,7 @@ proxy-groups:
     - name: 日本-全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -292,7 +292,7 @@ proxy-groups:
     - name: 日本-高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -312,7 +312,7 @@ proxy-groups:
     - name: 新加坡-全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -323,7 +323,7 @@ proxy-groups:
     - name: 新加坡-低
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -337,7 +337,7 @@ proxy-groups:
     - name: 新加坡-高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -350,7 +350,7 @@ proxy-groups:
     - name: 台湾-全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -360,7 +360,7 @@ proxy-groups:
     - name: 台湾-低
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -376,7 +376,7 @@ proxy-groups:
     - name: 台湾-高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -387,7 +387,7 @@ proxy-groups:
     - name: 美国-全
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
@@ -398,7 +398,7 @@ proxy-groups:
     - name: 美国-高
       type: url-test
       hidden: true
-      url: 'http://www.gstatic.com/generate_204'
+      url: 'https://www.gstatic.com/generate_204'
       interval: 300
       tolerance: 50
       proxies:
