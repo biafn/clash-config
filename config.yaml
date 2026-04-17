@@ -162,16 +162,20 @@ proxy-groups:
         
     - name: GPT低
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 台湾-低
         - 新加坡-低
         
     - name: GPT高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 台湾-高
         - 日本-高
@@ -180,8 +184,10 @@ proxy-groups:
         
     - name: GPT全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 台湾-全
         - 新加坡-全
@@ -191,8 +197,10 @@ proxy-groups:
         
     - name: 全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 香港-全
         - 台湾-全
@@ -203,8 +211,10 @@ proxy-groups:
         
     - name: 低
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 香港-低
         - 台湾-低
@@ -214,8 +224,10 @@ proxy-groups:
         
     - name: 高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 香港-高
         - 台湾-高
@@ -228,16 +240,20 @@ proxy-groups:
         
     - name: 香港-全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 香港-低
         - 香港-高
 
     - name: 香港-低
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - HK🇭🇰经济舱A【媒体】x1.5
         - HK🇭🇰经济舱B【媒体】x1.5
@@ -248,8 +264,10 @@ proxy-groups:
 
     - name: 香港-高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - HK🇭🇰商务舱A【媒体】x1.7
         - HK🇭🇰商务舱B【媒体】x1.7
