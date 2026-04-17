@@ -266,14 +266,17 @@ proxy-groups:
       hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 日本-低
         - 日本-高
         
     - name: 日本-高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - JP🇯🇵经济舱A【媒体】x1.7
         - JP🇯🇵经济舱B【媒体】x1.7
@@ -290,8 +293,10 @@ proxy-groups:
 
     - name: 新加坡-全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 新加坡-低
         - 新加坡-高
@@ -299,8 +304,10 @@ proxy-groups:
 
     - name: 新加坡-低
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - SG🇸🇬经济舱A【日常】x1.5
         - SG🇸🇬经济舱B【日常】x1.5
@@ -311,8 +318,10 @@ proxy-groups:
     
     - name: 新加坡-高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - SG头等x1.5A♛
         - SG头等x1.5B♛
@@ -322,16 +331,20 @@ proxy-groups:
         
     - name: 台湾-全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 台湾-低
         - 台湾-高
         
     - name: 台湾-低
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - TW⮂经济舱A【AI】x1.5
         - TW⮂经济舱B【AI】x1.5
@@ -344,8 +357,10 @@ proxy-groups:
       
     - name: 台湾-高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - TW⮂头等舱A【AI】x1.8
         - TW⮂头等舱B【AI】x1.8
@@ -353,8 +368,10 @@ proxy-groups:
 
     - name: 美国-全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - 美国-低
         - 美国-高
@@ -362,8 +379,10 @@ proxy-groups:
         
     - name: 美国-高
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
+      tolerance: 50
       proxies:
         - US🇺🇸经济舱A【AI】x1.5
         - US🇺🇸经济舱B【AI】x1.5
