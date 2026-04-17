@@ -20,7 +20,6 @@ dns:
     
 proxies:
     #2026-04-04
-    
     - { name: HK🇭🇰头等舱A【媒体】x2, type: vmess, server: xg.litepath.world, port: 25512, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰头等舱B【媒体】x2, type: vmess, server: xg.litepath.world, port: 25513, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰头等舱C【工作】x2, type: vmess, server: hk.keducafe.world, port: 56321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
@@ -48,17 +47,18 @@ proxies:
     - { name: US🇺🇸商务舱B【AI】x1.8, type: vmess, server: hjus.tiansuo.world, port: 41217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     #Hello 154.16.27.123 from San Jose, United States
     - { name: JP内测线路, type: vmess, server: vip.hjtnt.co, port: 44123, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true, tls: true }
+    
     - { name: HK🇭🇰经济舱A【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52212, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰经济舱B【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52213, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰经济舱C【媒体】x1.5, type: vmess, server: www.hj444hk.top, port: 52214, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰经济舱D【日常】x1.5, type: vmess, server: www.hj3hk.top, port: 52215, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰经济舱E【日常】x1.5, type: vmess, server: www.hj3hk.top, port: 52216, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: HK🇭🇰经济舱F【日常】x1.5, type: vmess, server: www.hj3hk.top, port: 52217, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
+    
     - { name: TW⮂经济舱A【AI】x1.5, type: vmess, server: www.hj666tw.top, port: 36612, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: TW⮂经济舱B【AI】x1.5, type: vmess, server: www.hj666tw.top, port: 36613, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: TW⮂经济舱C【工作】x1.5, type: vmess, server: www.hj666tw.top, port: 36614, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: TW⮂经济舱D【工作】x1.5, type: vmess, server: www.hj666tw.top, port: 36615, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
-
     
     - { name: JP🇯🇵经济舱A【媒体】x1.7, type: vmess, server: rb.xinchenone.world, port: 32321, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
     - { name: JP🇯🇵经济舱B【媒体】x1.7, type: vmess, server: rb.xinchenone.world, port: 32322, uuid: 43e102df-df05-4ead-a2fc-8982f6e7b2a0, alterId: 0, cipher: auto, udp: true }
@@ -107,18 +107,21 @@ proxy-groups:
         - 台湾-全
         - 台湾-低
         - 台湾-高
-        
+
+        - 新加坡-全
         - 新加坡-低
         - 新加坡-高
         
+        - 日本-全
+        - 日本-低
         - 日本-高
         
+        - 美国-全
+        - 美国-低
         - 美国-高
         
-
-        
         - DIRECT
-        - US🇺🇸头等舱B【AI】x2
+        - 谷歌
     
     - name: Github
       type: select
@@ -145,7 +148,7 @@ proxy-groups:
     - name: 谷歌
       type: select
       proxies:
-        - 美国-高
+        - 美国-全
         - US🇺🇸经济舱A【AI】x1.5
         - US🇺🇸经济舱B【AI】x1.5
         - US🇺🇸经济舱C【工作】x1.5
@@ -206,6 +209,8 @@ proxy-groups:
         - 香港-低
         - 台湾-低
         - 新加坡-低
+        - 日本-低
+        - 美国-低
         
     - name: 高
       type: url-test
@@ -258,9 +263,11 @@ proxy-groups:
 
     - name: 日本-全
       type: url-test
+      hidden: true
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
+        - 日本-低
         - 日本-高
         
     - name: 日本-高
@@ -349,6 +356,7 @@ proxy-groups:
       url: 'http://www.gstatic.com/generate_204'
       interval: 300
       proxies:
+        - 美国-低
         - 美国-高
 
         
