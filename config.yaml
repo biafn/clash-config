@@ -4,30 +4,18 @@ bind-address: '*'
 mode: rule
 log-level: info
 external-controller: '127.0.0.1:9090'
-
 dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  # 仅保留最可靠的国内 DNS，用于解析上游 DoH 的域名
-  default-nameserver: [223.5.5.5, 119.29.29.29]
-  
-  # 核心解析：精简为 2-3 个高质量 DoH
-  nameserver: 
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    
-  # fallback 仅在 nameserver 解析结果不在中国时触发
-  fallback: 
-    - https://dns.cloudflare.com/dns-query
-    - https://dns.google/dns-query
-    
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr: [240.0.0.0/4, 0.0.0.0/32]
+    enable: true
+    ipv6: false
+    default-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    respect-rules: true
+    proxy-server-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
+    nameserver: ['https://lion.madns-apple.site:2443/dns-query', 'https://eagle.madns-orange.site:2443/dns-query', 'https://panda.madns-banana.site:2443/dns-query', 'https://shark.madns-grape.site:2443/dns-query', 'https://zebra.madns-mango.site:2443/dns-query', 'https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    fallback: ['https://lion.madns-apple.site:2443/dns-query', 'https://eagle.madns-orange.site:2443/dns-query', 'https://panda.madns-banana.site:2443/dns-query', 'https://shark.madns-grape.site:2443/dns-query', 'https://zebra.madns-mango.site:2443/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+    fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4, 0.0.0.0/32], domain: [+.google.com, +.facebook.com, +.youtube.com] }
     
     
 proxies:
