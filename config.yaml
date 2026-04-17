@@ -113,11 +113,11 @@ proxy-groups:
         - 新加坡-高
         
         - 日本-全
-        - 日本-低
+        #- 日本-低
         - 日本-高
         
         - 美国-全
-        - 美国-低
+        #- 美国-低
         - 美国-高
         
         - DIRECT
@@ -219,8 +219,8 @@ proxy-groups:
         - 香港-低
         - 台湾-低
         - 新加坡-低
-        - 日本-低
-        - 美国-低
+        #- 日本-低
+        #- 美国-低
         
     - name: 高
       type: url-test
@@ -286,7 +286,7 @@ proxy-groups:
       interval: 300
       tolerance: 50
       proxies:
-        - 日本-低
+        #- 日本-低
         - 日本-高
         
     - name: 日本-高
@@ -391,7 +391,7 @@ proxy-groups:
       interval: 300
       tolerance: 50
       proxies:
-        - 美国-低
+        #- 美国-低
         - 美国-高
 
         
