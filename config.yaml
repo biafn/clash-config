@@ -159,6 +159,20 @@ proxy-groups:
         - US🇺🇸头等舱B【AI】x2
         - DIRECT
         
+    - name: 币安
+      type: select
+      proxies:
+        - 美国-全
+        - 新加坡-全
+        - US🇺🇸经济舱A【AI】x1.5
+        - US🇺🇸经济舱B【AI】x1.5
+        - US🇺🇸经济舱C【工作】x1.5
+        - US🇺🇸经济舱D【工作】x1.5
+        - US🇺🇸商务舱A【AI】x1.8
+        - US🇺🇸商务舱B【AI】x1.8
+        - US🇺🇸头等舱A【AI】x2
+        - US🇺🇸头等舱B【AI】x2
+        - DIRECT
         
     - name: GPT低
       type: url-test
@@ -454,7 +468,9 @@ rules:
     - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
     - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
     - RULE-SET,DOMAIN_Proxy,火箭TNT
+
     
+    - DOMAIN-SUFFIX,binance.com,币安
 # 自定义
  #ChatGPT
     - DOMAIN-SUFFIX,openai.com,ChatGPT
