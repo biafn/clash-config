@@ -165,14 +165,17 @@ proxy-groups:
         - 美国-全
         - 新加坡-全
         - 台湾-全
-        - US🇺🇸经济舱A【AI】x1.5
-        - US🇺🇸经济舱B【AI】x1.5
-        - US🇺🇸经济舱C【工作】x1.5
-        - US🇺🇸经济舱D【工作】x1.5
-        - US🇺🇸商务舱A【AI】x1.8
-        - US🇺🇸商务舱B【AI】x1.8
-        - US🇺🇸头等舱A【AI】x2
-        - US🇺🇸头等舱B【AI】x2
+        - TW⮂经济舱A【AI】x1.5
+        - TW⮂经济舱B【AI】x1.5
+        - TW⮂经济舱C【工作】x1.5
+        - TW⮂经济舱D【工作】x1.5
+        
+        - TW⮂商务舱A【AI】x1.5
+        - TW⮂商务舱B【AI】x1.5
+        - TW⮂商务舱C【工作】x1.5
+
+        - TW⮂头等舱A【AI】x1.8
+        - TW⮂头等舱B【AI】x1.8
         - DIRECT
         
     - name: GPT低
