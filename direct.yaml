@@ -6,7 +6,11 @@ payload:
     - DOMAIN-SUFFIX,officeapps.live.com,DIRECT
     - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
     - DOMAIN-KEYWORD,msft,DIRECT
-
+	- DOMAIN-SUFFIX,office365.com,DIRECT
+    - DOMAIN-SUFFIX,live.net,DIRECT
+    - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+    - DOMAIN-SUFFIX,msftncsi.com,DIRECT
+    - DOMAIN,d.docs.live.net,DIRECT
 	
 	- 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
