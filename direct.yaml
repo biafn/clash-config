@@ -10,7 +10,8 @@ payload:
     - DOMAIN-SUFFIX,live.net,DIRECT
     - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
     - DOMAIN-SUFFIX,msftncsi.com,DIRECT
-    - DOMAIN,d.docs.live.net,DIRECT
+    - DOMAIN-SUFFIX,d.docs.live.net,DIRECT
+	- DOMAIN-KEYWORD,onedrive,DIRECT
 	
 	- 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
