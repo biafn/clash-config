@@ -1,4 +1,13 @@
 payload:
+# 优先强制直连微软全家桶
+    - DOMAIN-SUFFIX,microsoft.com,DIRECT
+    - DOMAIN-SUFFIX,live.com,DIRECT
+    - DOMAIN-SUFFIX,office.com,DIRECT
+    - DOMAIN-SUFFIX,officeapps.live.com,DIRECT
+    - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+    - DOMAIN-KEYWORD,msft,DIRECT
+
+	
 	- 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
     - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
