@@ -80,6 +80,22 @@ proxies:
     
     
 proxy-groups:
+    - name: 币安
+      type: select
+      proxies:
+        - TW⮂经济舱A【AI】x1.5
+        - TW⮂经济舱B【AI】x1.5
+        - TW⮂经济舱C【工作】x1.5
+        - TW⮂经济舱D【工作】x1.5
+    
+        - TW⮂商务舱A【AI】x1.5
+        - TW⮂商务舱B【AI】x1.5
+        - TW⮂商务舱C【工作】x1.5
+
+        - TW⮂头等舱A【AI】x1.8
+        - TW⮂头等舱B【AI】x1.8
+
+        
     - name: 谷歌
       type: select
       proxies:
@@ -93,13 +109,6 @@ proxy-groups:
         #- US🇺🇸头等舱A【AI】x2 #Gemini 目前不支持你所在的地区
         - US🇺🇸头等舱B【AI】x2
         - DIRECT
-        
-    - name: 测试
-      type: select
-      proxies:
-        - 谷歌
-        - 火箭TNT
-        - DIRECT 
 
 
     - name: Others
@@ -107,6 +116,15 @@ proxy-groups:
       proxies:
         - 火箭TNT
         - DIRECT 
+
+
+    - name: 测试
+      type: select
+      proxies:
+        - 谷歌
+        - 火箭TNT
+        - DIRECT 
+
         
     - name: 火箭TNT
       type: select
@@ -114,29 +132,22 @@ proxy-groups:
         - 全
         - 低
         - 高
-        
         - 香港-全
         - 香港-低
         - 香港-高
-        
         - 台湾-全
         - 台湾-低
         - 台湾-高
-
         - 新加坡-全
         - 新加坡-低
         - 新加坡-高
-        
         - 日本-全
         #- 日本-低
         - 日本-高
-        
         - 美国-全
         #- 美国-低
         - 美国-高
-        
         - DIRECT
-        - 谷歌
     
     - name: Github
       type: select
@@ -162,20 +173,7 @@ proxy-groups:
 
 
         
-    - name: 币安
-      type: select
-      proxies:
-        - TW⮂经济舱A【AI】x1.5
-        - TW⮂经济舱B【AI】x1.5
-        - TW⮂经济舱C【工作】x1.5
-        - TW⮂经济舱D【工作】x1.5
-        
-        - TW⮂商务舱A【AI】x1.5
-        - TW⮂商务舱B【AI】x1.5
-        - TW⮂商务舱C【工作】x1.5
 
-        - TW⮂头等舱A【AI】x1.8
-        - TW⮂头等舱B【AI】x1.8
         
     - name: GPT低
       type: url-test
