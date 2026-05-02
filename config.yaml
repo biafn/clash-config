@@ -470,11 +470,7 @@ rule-providers:
     interval: 86400
         
 rules:
-    - RULE-SET,direct,DIRECT
-    - RULE-SET,ruleset_1,火箭TNT
-    - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
-    - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
-    - RULE-SET,DOMAIN_Proxy,火箭TNT
+
 
     
     - DOMAIN-SUFFIX,binance.com,币安
@@ -511,7 +507,16 @@ rules:
     - DOMAIN-KEYWORD,steam,Steam
     - DOMAIN-SUFFIX,store.steampowered.com,Steam
     - DOMAIN-SUFFIX,api.steampowered.com,Steam
-    - DOMAIN-SUFFIX,login.steampowered.com,Steam
+    - DOMAIN-SUFFIX,login.steampowered.com,Steam、
+
+
+
+
+    - RULE-SET,direct,DIRECT
+    - RULE-SET,ruleset_1,火箭TNT
+    - RULE-SET,DOMAIN-KEYWORD_Proxy,火箭TNT
+    - RULE-SET,DOMAIN-SUFFIX_Proxy,火箭TNT
+    - RULE-SET,DOMAIN_Proxy,火箭TNT
 # 自定义/
 
 
