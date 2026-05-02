@@ -165,9 +165,6 @@ proxy-groups:
     - name: 币安
       type: select
       proxies:
-        - 美国-全
-        - 新加坡-全
-        - 台湾-全
         - TW⮂经济舱A【AI】x1.5
         - TW⮂经济舱B【AI】x1.5
         - TW⮂经济舱C【工作】x1.5
@@ -179,7 +176,6 @@ proxy-groups:
 
         - TW⮂头等舱A【AI】x1.8
         - TW⮂头等舱B【AI】x1.8
-        - DIRECT
         
     - name: GPT低
       type: url-test
@@ -215,7 +211,15 @@ proxy-groups:
         - 日本-全
         - 美国-全
 
+
+
+
+
+
+
+
         
+#地区
     - name: 全
       type: url-test
       hidden: true
@@ -228,7 +232,6 @@ proxy-groups:
         - 新加坡-全
         - 日本-全
         - 美国-全
-
         
     - name: 低
       type: url-test
@@ -268,7 +271,7 @@ proxy-groups:
       proxies:
         - 香港-低
         - 香港-高
-
+        
     - name: 香港-低
       type: url-test
       hidden: true
@@ -282,7 +285,7 @@ proxy-groups:
         - HK🇭🇰经济舱D【日常】x1.5
         - HK🇭🇰经济舱E【日常】x1.5
         - HK🇭🇰经济舱F【日常】x1.5
-
+        
     - name: 香港-高
       type: url-test
       hidden: true
@@ -299,6 +302,9 @@ proxy-groups:
         - HK🇭🇰头等舱B【媒体】x2
         - HK🇭🇰头等舱C【工作】x2
         - HK🇭🇰头等舱D【工作】x2
+
+
+
 
     - name: 日本-全
       type: url-test
@@ -340,7 +346,6 @@ proxy-groups:
         - 新加坡-低
         - 新加坡-高
 
-
     - name: 新加坡-低
       type: url-test
       hidden: true
@@ -352,8 +357,6 @@ proxy-groups:
         - SG🇸🇬经济舱B【日常】x1.5
         - SG🇸🇬经济舱C【日常】x1.5
         - SG🇸🇬经济舱D【日常】x1.5
-
-
     
     - name: 新加坡-高
       type: url-test
@@ -366,6 +369,9 @@ proxy-groups:
         - SG头等x1.5B♛
         - SG🇸🇬头等舱A【工作】x2
         - SG🇸🇬头等舱B【工作】x2
+
+
+
 
         
     - name: 台湾-全
@@ -405,6 +411,9 @@ proxy-groups:
         - TW⮂头等舱B【AI】x1.8
 
 
+
+
+
     - name: 美国-全
       type: url-test
       hidden: true
@@ -415,7 +424,6 @@ proxy-groups:
         #- 美国-低
         - 美国-高
 
-        
     - name: 美国-高
       type: url-test
       hidden: true
@@ -431,6 +439,8 @@ proxy-groups:
         - US🇺🇸商务舱B【AI】x1.8
         - US🇺🇸头等舱A【AI】x2
         - US🇺🇸头等舱B【AI】x2
+#地区/
+
 
 
 rule-providers:
@@ -470,11 +480,10 @@ rule-providers:
     interval: 86400
         
 rules:
-
-
-    
-    - DOMAIN-SUFFIX,binance.com,币安
 # 自定义
+
+    - DOMAIN-KEYWORD,binance,币安
+
  #ChatGPT
     - DOMAIN-SUFFIX,openai.com,ChatGPT
     - DOMAIN-SUFFIX,chatgpt.com,ChatGPT
