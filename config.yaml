@@ -121,6 +121,7 @@ proxy-groups:
     - name: 测试
       type: select
       proxies:
+        - 币安
         - 谷歌
         - 火箭TNT
         - DIRECT 
