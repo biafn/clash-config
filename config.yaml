@@ -173,6 +173,20 @@ proxy-groups:
         - DIRECT
 
 
+
+    - name: e站
+      type: select
+      proxies:
+        - US🇺🇸经济舱A【AI】x1.5
+        - US🇺🇸经济舱B【AI】x1.5
+        - US🇺🇸经济舱C【工作】x1.5
+        - US🇺🇸经济舱D【工作】x1.5
+        - US🇺🇸商务舱A【AI】x1.8
+        - US🇺🇸商务舱B【AI】x1.8
+        - US🇺🇸头等舱A【AI】x2
+        - US🇺🇸头等舱B【AI】x2
+
+
         
 
         
@@ -483,7 +497,7 @@ rules:
 
     - DOMAIN-KEYWORD,binance,币安
 
- #ChatGPT
+
     - DOMAIN-SUFFIX,openai.com,ChatGPT
     - DOMAIN-SUFFIX,chatgpt.com,ChatGPT
     - DOMAIN-SUFFIX,oaistatic.com,ChatGPT
@@ -492,23 +506,30 @@ rules:
     - DOMAIN-SUFFIX,platform.openai.com,ChatGPT
     - DOMAIN-SUFFIX,api.openai.com,ChatGPT
     #- DOMAIN-SUFFIX,challenges.cloudflare.com,ChatGPT
- #ChatGPT/
- 
- #谷歌
+
+
     - DOMAIN-KEYWORD,google,谷歌
     - DOMAIN-SUFFIX,gstatic.com,谷歌
     - DOMAIN-SUFFIX,gmodules.com,谷歌
     - DOMAIN-SUFFIX,golang.org,谷歌
     - DOMAIN-SUFFIX,goo.gl,谷歌
- #谷歌/
- 
- #测试
+
+    - DOMAIN-KEYWORD,exhentai,e站
+    - DOMAIN-KEYWORD,e-hentai,e站
+
     - DOMAIN-SUFFIX,dnsleaktest.com,测试
     - DOMAIN-SUFFIX,ipleak.net,测试
     - DOMAIN-SUFFIX,ip.sb,测试
     - DOMAIN-SUFFIX,ip.me,测试
     - DOMAIN-SUFFIX,browserleaks.com,测试
- #测试/
+
+
+
+
+
+
+
+
     
     - DOMAIN-KEYWORD,github,Github
     #- DOMAIN-KEYWORD,cloudflarestorage.com,c站下载
